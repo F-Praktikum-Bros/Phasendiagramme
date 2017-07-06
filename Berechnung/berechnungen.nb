@@ -10,16 +10,14 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      2795,         93]
-NotebookOptionsPosition[      2435,         75]
-NotebookOutlinePosition[      2788,         91]
-CellTagsIndexPosition[      2745,         88]
+NotebookDataLength[      6398,        195]
+NotebookOptionsPosition[      6146,        181]
+NotebookOutlinePosition[      6499,        197]
+CellTagsIndexPosition[      6456,        194]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-
-Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{
   RowBox[{"(*", " ", 
@@ -27,12 +25,62 @@ Cell[BoxData[
   "\[IndentingNewLine]", 
   RowBox[{
    RowBox[{
-    RowBox[{"aInP", "=", "5.8687"}], ";"}], "\[IndentingNewLine]", 
+    RowBox[{
+     SubscriptBox["a", "InP"], "=", "5.8687"}], ";"}], "\[IndentingNewLine]", 
+   
    RowBox[{
-    RowBox[{"aGaP", "=", "5.4505"}], ";"}], "\[IndentingNewLine]", 
+    RowBox[{
+     SubscriptBox["a", "GaP"], "=", "5.4505"}], ";"}], "\[IndentingNewLine]", 
+   
    RowBox[{
-    RowBox[{"aGaAs", "=", "5.65325"}], ";"}], "\[IndentingNewLine]", 
+    RowBox[{
+     SubscriptBox["a", "GaAs"], "=", "5.65325"}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{"Bandl\[UDoubleDot]cke", " ", "in", " ", "eV"}], " ", "*)"}], 
    "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      SubscriptBox["Eg", "InP"], "[", "T_", "]"}], ":=", 
+     RowBox[{"1.421", " ", "-", " ", 
+      RowBox[{"4.9", "*", 
+       SuperscriptBox["10", 
+        RowBox[{"-", "4"}]], "*", 
+       RowBox[{
+        SuperscriptBox["T", "2"], "/", 
+        RowBox[{"(", 
+         RowBox[{"T", "+", "327"}], ")"}]}]}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      SubscriptBox["Eg", "GaP"], "[", "T_", "]"}], ":=", 
+     RowBox[{"2.34", " ", "-", " ", 
+      RowBox[{"6", "*", 
+       SuperscriptBox["10", 
+        RowBox[{"-", "4"}]], "*", 
+       RowBox[{
+        SuperscriptBox["T", "2"], "/", 
+        RowBox[{"(", 
+         RowBox[{"T", "+", "460"}], ")"}]}]}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["Eg", "InP"], "[", "300", "]"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["Eg", "GaP"], "[", "300", "]"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["Eg", "InP"], "[", "80", "]"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["Eg", "GaP"], "[", "80", "]"}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{
     "Passe", " ", "Gitterkonstante", " ", "an", " ", "GaAs", " ", "an"}], " ",
@@ -45,33 +93,91 @@ Cell[BoxData[
       RowBox[{"x", "/.", 
        RowBox[{"Solve", "[", 
         RowBox[{
-         RowBox[{"aGaAs", "\[Equal]", 
+         RowBox[{
+          SubscriptBox["a", "GaAs"], "\[Equal]", 
           RowBox[{
-           RowBox[{"x", "*", "aGaP"}], "+", 
+           RowBox[{"x", "*", 
+            SubscriptBox["a", "GaP"]}], "+", 
            RowBox[{
             RowBox[{"(", 
-             RowBox[{"1", "-", "x"}], ")"}], "*", "aInP"}]}]}], ",", "x"}], 
-        "]"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+             RowBox[{"1", "-", "x"}], ")"}], "*", 
+            SubscriptBox["a", "InP"]}]}]}], ",", "x"}], "]"}]}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{
     "Bandl\[UDoubleDot]cke", " ", "f\[UDoubleDot]r", " ", "diese", " ", 
-     "Zusammenensetzung", " ", "in", " ", "eV"}], " ", "*)"}], 
-   "\[IndentingNewLine]", 
+     "Zusammenensetzung", " ", "in", " ", "eV", " ", "bei", " ", "300", "K"}],
+     " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"Eg", "=", 
+    RowBox[{
+     SubscriptBox["Eg", "misch"], "=", 
      RowBox[{"1.351", "+", 
       RowBox[{"0.643", "*", "x"}], "+", 
-      RowBox[{"0.786", 
-       RowBox[{"x", "^", "2"}]}]}]}], ";"}]}]}]], "Input",
+      RowBox[{"0.786", "*", 
+       RowBox[{"x", "^", "2"}]}]}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["\[Lambda]", "misch"], "=", 
+     RowBox[{"1240", "/", 
+      SubscriptBox["Eg", "misch"]}]}], ";"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "Bandl\[UDoubleDot]cke", " ", "Zusammensetzung", " ", "in", " ", "eV", 
+     " ", "bei", " ", "80", "K", " ", "aus", " ", "Wichtung"}], " ", "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Test", " ", "=", " ", 
+     RowBox[{
+      RowBox[{"x", "*", 
+       RowBox[{
+        SubscriptBox["Eg", "GaP"], "[", "80", "]"}]}], "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", "-", "x"}], ")"}], "*", 
+       RowBox[{
+        SubscriptBox["Eg", "InP"], "[", "80", "]"}]}]}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["Eg", "misch80"], "=", 
+     RowBox[{"Test", "+", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"x", "*", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            SubscriptBox["Eg", "GaP"], "[", "80", "]"}], "-", 
+           RowBox[{
+            SubscriptBox["Eg", "GaP"], "[", "300", "]"}]}], ")"}]}], "+", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"1", "-", "x"}], ")"}], "*", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            SubscriptBox["Eg", "InP"], "[", "80", "]"}], "-", 
+           RowBox[{
+            SubscriptBox["Eg", "InP"], "[", "300", "]"}]}], ")"}]}]}], 
+       ")"}]}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["\[Lambda]", "misch80"], "=", 
+     RowBox[{"1240", "/", 
+      SubscriptBox["Eg", "misch80"]}]}], ";"}]}]}]], "Input",
  CellChangeTimes->{{3.7083191005535307`*^9, 3.70831923878575*^9}, {
-  3.7083192804920893`*^9, 3.7083194173553743`*^9}}],
-
-Cell[BoxData["0.5151841224294592`"], "Output",
- CellChangeTimes->{{3.7083193917039127`*^9, 3.7083194106739473`*^9}}],
-
-Cell[BoxData["1.890879329204824`"], "Output",
- CellChangeTimes->{{3.7083193917039127`*^9, 3.7083194106817102`*^9}}]
-}, Open  ]]
+   3.7083192804920893`*^9, 3.7083194173553743`*^9}, {3.708320062215082*^9, 
+   3.7083200823891172`*^9}, {3.708320161578787*^9, 3.708320191825741*^9}, 
+   3.708321452440338*^9, {3.708321695476096*^9, 3.708321929134665*^9}, {
+   3.708322025947772*^9, 3.708322041380023*^9}, {3.708322172887793*^9, 
+   3.708322180130268*^9}, {3.708322250916811*^9, 3.7083222664831133`*^9}, {
+   3.708322342017235*^9, 3.708322429665904*^9}, {3.708322478543522*^9, 
+   3.708322546278657*^9}, {3.708322756669671*^9, 3.70832275853156*^9}, {
+   3.708322844840222*^9, 3.708322863092458*^9}, {3.7083229046489*^9, 
+   3.7083229554925957`*^9}, {3.708322999844633*^9, 3.708323045016287*^9}, {
+   3.70832308616096*^9, 3.708323131725691*^9}, {3.7083232438793364`*^9, 
+   3.708323248680393*^9}}]
 },
 WindowSize->{808, 555},
 WindowMargins->{{4, Automatic}, {Automatic, 4}},
@@ -90,14 +196,8 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[CellGroupData[{
-Cell[580, 22, 1602, 44, 199, "Input"],
-Cell[2185, 68, 116, 1, 28, "Output"],
-Cell[2304, 71, 115, 1, 28, "Output"]
-}, Open  ]]
+Cell[558, 20, 5584, 159, 456, "Input"]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
