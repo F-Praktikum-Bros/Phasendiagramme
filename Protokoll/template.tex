@@ -9,12 +9,12 @@ nofootinbib,superscriptaddress]{revtex4-1}
 \usepackage{bm}             % special 'bold-math' package
 \usepackage[ngerman]{babel} % deutsche Siblentrennung
 \usepackage[utf8]{inputenc} % Umlaute
-dd
+
 \def\andname{\hspace*{-0.5em},} % definiert die Trennung zwischen 2 Autoren neu
 
 % Titelseite
 \begin{document}
-\title{F-Praktikum: Luminescence Spectrocopy}
+\title{F-Praktikum: Elektrolumineszenz-Spektroskopie}
 \author         {Ch. Egerland}
 \email[Email: ]{egerlanc@physik.hu-berlin.de}
 \author         {M. Pfeifer}
@@ -25,7 +25,7 @@ dd
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
 Untersucht wird das Lumineszenzspektrum einer InGaP-Photodiode im Temperaturbereich zwischen
-$T=80\text{ K}$ und $T=250\text{ K}$. Die Fluoreszenzmessung wird mithilfe eines Czerny-Turner-Spektrometers
+$80\text{ K}$ und $250\text{ K}$. Die Fluoreszenzmessung wird mithilfe eines Czerny-Turner-Spektrometers
 und einer Photomultiplier-Tube realisiert. Wir treffen Aussagen über den Verlauf des Spektrums, die
 Temperaturabhängigkeit des Lumineszenzpeaks, den thermischen Einluss auf die integrierte Peakintensität und
 wir geben eine Abschätzung für die Aktivierungsenergie von InGaP an.
@@ -36,45 +36,54 @@ wir geben eine Abschätzung für die Aktivierungsenergie von InGaP an.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Wie wir in Zukunft Paper schreiben}
 
+\section{Theorie}
 
-Wir untergliedern in:
-\begin{enumerate}
-\item Theorie: kleine Zusammenfassung der Theorie, die hinter'm Experiment steht
+\noindent Unter Lumineszenz versteht man Strahlung, die beim Übergang eines Systems von einem angeregten Zustand
+in einen niederenergetischen Zustand emittiert wird. Bei Halbleitern lassen sich diese Übergänge mit dem Bändermodell
+beschreiben. So finden die elektronischen Übergänge vor allem aus dem Leitungsband ins Valenzband statt, so dass bei
+Anregung des Materials mit ausreichend Energie ($E>E_g$) Lumineszenzphotonen mit einer der Bandlücke entsprechenden
+Frequenz erzeugt werden (direkter Übergang).\newline
 
-\item Experiment: Aufbau, Funktionsweise
+\noindent Es gibt verschiedene Rekombinationswege für ein sich im angeregten Zustand befindlichendes System (s. \ref{fig:rekomb} ) \cite{saarland}.
+Liegt ein dotierter Halbleiter vor, speziell z.B. eine Heterostruktur mit pn-Übergang, gibt es im Bereich zwischen Leitungs-
+und Valenzband Donator- (knapp unter Leitungsbandkante) und Akzeptorzustände (knapp über der Valenzbandkante). Ebenfalls für die
+Lumineszenz relevant sind sog. Exzitonen-Zustände (gebundene Elektron-Loch-Paare). Bei guter Kühlung (wenig thermischer
+Anregung) sind neben dem direkten Übergang (LB$\rightarrow$VB) daher auch andere Übergänge, z.B. Exzitonen-Rekombination,
+Übergänge vom Donator- zum Akzeptorniveau (D,A) oder ins Valenzband (D,h) sichtbar.
 
-\item Daten und Analyse: Auswertung
-
-\item Schlussfolgerung:
-
-\end{enumerate}
-
-{\bf So und nicht anders!}
-\\
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
-a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
-tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
-consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
-ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
-quis nisi.
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.47\textwidth]{img/rekombinationswege.jpg}
+  \caption{ Lumineszenz-relevante elektronische Übergänge: a) Anregung, b) Relaxation im Band,
+  c) (e,h)-Übergang, d) (D,h)-Übergang, e) (e,A)-Übergang, f) (D,A)-Übergang, g) Rekombination freier Exzitonen; aus: \cite{saarland}}
+  \label{fig:rekomb}
+\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Theorie}
+\section{Experiment}
 
-Unter Lumineszenz versteht man Strahlung, die beim Übergang eines Systems von einem angeregten Zustand
-in einen niederenergetischen Zustand emittiert wird. Bei Halbleitern finden diese elektronischen Übergänge vor allem
-vom Leitungsband ins Valenzband statt, so dass bei Anregung des Materials mit ausreichend Energie ($E>E_g$) Lumineszenz-
-photonen mit einer der Bandlücke entsprechenden Frequenz erzeugt werden. Liegt ein dotierter Halbleiter vor, speziell z.B.
-eine Heterostruktur mit pn-Übergang, gibt es im Bereich zwischen Leitungs- und Valenzband weiterhin Donator- (knapp unter
-Leitungsbandkante) und Akzeptorzustände (knapp über der Valenzbandkante). Ebenfalls für die Lumineszenz relevant sind sog.
-Exzitonen-Zustände (gebundene Elektron-Loch-Paare). Bei guter Kühlung (wenig thermischer Anregung) sind neben der Fluoreszenz
-aufgrund der Rekombination von Elektronen aus dem Valenzband ins Leitungsband auch andere Übergänge, z.B. vom Donator- zum
-zum Akzeptorniveau (D,A) oder ins Valenzband (D,h) sichtbar.
+\noindent Der Versuchsaufbau ist schematisch in \ref{fig:versuch} dargestellt. Die Anregung der InGaP-Diode erfolgt durch Anlegen einer
+Spannung mittels einer externen Konstantstromversorgung. Dazu sind die elektrischen Verbindungen bereits an der Probe angebracht.
+Diese befindet sich in einem evakuierten ($p\sim 2\text{ Pa}$) und auf $80\text{ K}$ Stickstoff-temperierten Kryostaten. Die Temperaturmessung
+erfolgt durch einen Sensor, der möglichst nahe an der Probe platziert wurde.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.48\textwidth]{img/versuchsanleitung.jpg}
+  \caption{Versuchsaufbau, aus: \cite{anleitung}}
+  \label{fig:versuch}
+\end{figure}
+
+\noindent Die durch Rekombination entstandenen Photonen gelangen zunächst durch eine Kollimatorlinse, gefolgt von einer Linse zur
+Strahlfokussierung und treffen dann auf ein Czerny-Turner-Monochromator. Durch die Beweglichkeit des Gitters im
+Monochromator (Schrittmotorsteuerung) können verschiedene Spektralbereiche selektiert werden, deren Intensität anschließend in einem Photomultiplier (PMT)
+gemessen wird. Dieser arbeitet mit einer Beschleunigungsspannung von $U_\text{PMT}=2,2\text{ kV}$. Zwecks Maximierung des
+Signal-Rausch-Verhältnisses wurde die PMT ebenfalls gekühlt (Peltierelement mit Wasserkühlung). Das Signal der Photonenvervielfachers
+gelangt dann über einen Analog-Digital-Wandler zum Computer, der die Messsignale zusammen mit der Schrittmotorposition des Monochromators
+abspeichert und zu einem Energiespektrum verarbeitet.
 
 Hier mal noch Beispiele wie man Gleichungen richtig referenziert, siehe
 Gleichung.~\ref{eq:first-equation} :
@@ -128,31 +137,6 @@ Natürlich gibts auch die guten alten subequations wie (\ref{subeq:1}) und
 \end{eqnarray}
 \end{subequations}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
-a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
-tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
-consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
-ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
-quis nisi.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Experiment}
-
-Text zum Experiment mit vielleicht einer Grafik:
-
-\begin{figure}[h]
-
-\caption{ein Bild vom Versuchsaufbau, Aus: \cite{melissinos1966,melissinos2003}.}
-\label{fig:samplefig}
-\end{figure}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
-a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
-tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
-consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
-ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
-quis nisi.
 
 
 
@@ -207,8 +191,8 @@ quis nisi.
 \bibliography{sample-paper}
 \bibliographystyle{prsty}
 \begin{thebibliography}{99}
-\bibitem{abkuerzung1}Autor, Titel, Verlag,  [1945]
-\bibitem{abkuerzung2}Autor, Titel, Verlag,  [1945]
+\bibitem{saarland}Prof. Dr. Thomas Wichert, Photolumineszenz-Spektroskopie an Halbleitern, Universität des Saarlandes [2006]
+\bibitem{anleitung}FET Group, Benutzerhandbuch Elektrolumineszenz-Spektroskopie, Humboldt-Universität zu Berlin
 \bibitem{abkuerzung3}Autor, Titel, Verlag,  [1945]
 \bibitem{abkuerzung4}Autor, Titel, Verlag,  [1945]
 \end{thebibliography}
