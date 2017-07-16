@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex template"] 1500213136 "template.aux" "template.bbl" "template" 1500213137
+["bibtex template"] 1500225684 "template.aux" "template.bbl" "template" 1500225685
   "prsty.bst" 0 -1 0 ""
   "sample-paper.bib" 0 -1 0 ""
-  "template.aux" 1500213137 2724 47be7a654e41bdb2f3f1fd17b2533b6b ""
-  "templateNotes.bib" 1500213136 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "template.aux" 1500225684 2799 612e4f2dd17f45fd6ca48c1f5c4a15cb ""
+  "templateNotes.bib" 1500225684 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "template.bbl"
   "template.blg"
-["pdflatex"] 1500213136 "template.tex" "template.pdf" "template" 1500213137
+  "template.bbl"
+["pdflatex"] 1500225684 "template.tex" "template.pdf" "template" 1500225685
   "../Messung/allfitsplot.eps" 1500204970 174929 481d527439b998f50e33eaea17534a5e ""
   "../Messung/energtemp.eps" 1500204970 69214 8ec6191d2aa81a53b345e2b181014340 ""
   "../Messung/peaktemp.eps" 1500204970 49995 049ca564c4c5d83ec7191af933dff589 ""
@@ -124,11 +124,11 @@
   "C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "img/rekombinationswege.jpg" 1500204970 44082 7175a7ab84f4c96adc6742997577b971 ""
   "img/versuchsanleitung.jpg" 1500204970 40595 83c3c9dc46d6df9fd655c08e3db9f09c ""
-  "template.aux" 1500213137 2724 47be7a654e41bdb2f3f1fd17b2533b6b ""
+  "template.aux" 1500225684 2799 612e4f2dd17f45fd6ca48c1f5c4a15cb ""
   "template.bbl" 0 -1 0 "bibtex template"
-  "template.tex" 1500213135 11661 bd69ad6414b3fec41bbfb52ff7a96723 ""
+  "template.tex" 1500225683 12975 9cfeceb7adf890ec8e48b6f8bf0f01a2 ""
   (generated)
   "template.pdf"
-  "template.log"
   "template.aux"
   "templateNotes.bib"
+  "template.log"
