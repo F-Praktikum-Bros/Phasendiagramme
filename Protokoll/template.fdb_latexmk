@@ -1,13 +1,16 @@
 # Fdb version 3
-["bibtex template"] 1499804496 "template.aux" "template.bbl" "template" 1499804497
+["bibtex template"] 1500212420 "template.aux" "template.bbl" "template" 1500212420
   "prsty.bst" 0 -1 0 ""
   "sample-paper.bib" 0 -1 0 ""
-  "template.aux" 1499804497 2094 6db33df83b4f392b18b83d62e8ef5610 ""
-  "templateNotes.bib" 1499804496 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "template.aux" 1500212420 2684 dba57aac4075b60b3ac8358f7d02543e ""
+  "templateNotes.bib" 1500212420 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "template.blg"
   "template.bbl"
-["pdflatex"] 1499804496 "template.tex" "template.pdf" "template" 1499804497
+["pdflatex"] 1500212420 "template.tex" "template.pdf" "template" 1500212420
+  "../Messung/allfitsplot.eps" 1500204970 174929 481d527439b998f50e33eaea17534a5e ""
+  "../Messung/energtemp.eps" 1500204970 69214 8ec6191d2aa81a53b345e2b181014340 ""
+  "../Messung/peaktemp.eps" 1500204970 49995 049ca564c4c5d83ec7191af933dff589 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233955448 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1233955448 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1233955448 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -119,13 +122,13 @@
   "C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/revtex/revtex4-1.cls" 1281387590 199798 166dddb5ba2b6c918ce38d92ad67794f ""
   "C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/textcase/textcase.sty" 1128365776 2083 79a2c3efd954daff1698214872b6ca46 ""
   "C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "img/rekombinationswege.jpg" 1499800750 44082 7175a7ab84f4c96adc6742997577b971 ""
-  "img/versuchsanleitung.jpg" 1499803501 40595 83c3c9dc46d6df9fd655c08e3db9f09c ""
-  "template.aux" 1499804497 2094 6db33df83b4f392b18b83d62e8ef5610 ""
+  "img/rekombinationswege.jpg" 1500204970 44082 7175a7ab84f4c96adc6742997577b971 ""
+  "img/versuchsanleitung.jpg" 1500204970 40595 83c3c9dc46d6df9fd655c08e3db9f09c ""
+  "template.aux" 1500212420 2684 dba57aac4075b60b3ac8358f7d02543e ""
   "template.bbl" 0 -1 0 "bibtex template"
-  "template.tex" 1499804495 9412 25d600d855a07496cf00e53532dd8674 ""
+  "template.tex" 1500212418 11612 8177c9bcf46dc894f089ef7b1d893f89 ""
   (generated)
-  "template.log"
   "template.pdf"
-  "templateNotes.bib"
   "template.aux"
+  "templateNotes.bib"
+  "template.log"
