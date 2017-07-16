@@ -91,26 +91,26 @@ abspeichert und zu einem Energiespektrum verarbeitet.\newpage
 \section{Daten und Analyse}
 
 \noindent Um eine bessere Einordnung der Ergebnisse zu ermöglichen, wird zunächst die temperaturabhängige Lage des Lumineszenzpeaks
-(entspricht Größe der Bandlücke) mithilfe der Varshni-Formel theoretisch berechnet. Dazu wurde die
-vereinfachende Annahme getroffen, dass die Zusammensetzung des $\text{In}_x\text{Ga}_{1-x}\text{P}$
+(entspricht Größe der Bandlücke) mithilfe der empirischen Varshni-Formel theoretisch berechnet:
+\begin{equation}
+  E_{g}(T) = 1,351+0,643x+0,786x^2\text{ (eV), }T=300\text{ K}
+   \label{eq:varshni}
+\end{equation}
+Dazu wurde die vereinfachende Annahme getroffen, dass die Zusammensetzung des $\text{In}_x\text{Ga}_{1-x}\text{P}$
 auf Gitteranpassung an GaAs optimiert wurde. Der unter dieser Voraussetzung von uns berechnete,
 optimale Wert ist $x=0.515$. Daraus folgt durch, mit x gewichteter, Mittelung der Bandlücken von
-Indium und Gallium eine theoretische Bandlückenenergie von
+Indium und Gallium und \ref{eq:varshni} eine theoretische Bandlückenenergie von
 \begin{equation}
   E_{g,th} = 1.89\text{ eV}\text{ bei }T=300\text{ K}
    \label{eq:evEgap300K}
 \end{equation}
 
-\noindent Das entspricht einer zu erwartenden Wellenlänge von $656,52$ nm. Die empirische
-Varshni-Formel für InGaP (auf GaAs gitterangepasst) lautet:
-\begin{equation}
-  E_{g}(T) = 1,351+0,643x+0,786x^2\text{ (eV), }T=300\text{ K}
-   \label{eq:varshni}
-\end{equation}
+\noindent Das entspricht einer zu erwartenden Wellenlänge von $656,52$ nm.
 
-\noindent Aufgrund der Temperaturdifferenz-bedingten Deformation und der endlichen Ausdehnung des Halbleitermaterials
-führt eine Erwärmung des Kristalls in der Theorie zu einer Verkleinerung der Bandlücke. Gl. \ref{eq:varshni}
-liefert die erwartete Energieverschiebung zwischen $T=80\text{ K}$ und $T=300\text{ K}$:
+Aufgrund der Temperaturdifferenz-bedingten Deformation und der endlichen Ausdehnung des Halbleitermaterials
+führt eine Erwärmung des Kristalls in der Theorie zu einer Verkleinerung der Bandlücke. Eine erneute gewichtete
+Mittelung der Bandlückenenergien von InP und GaP bei $T=80\text{ K}$ liefert zusammen mit \ref{eq:evEgap300K}
+die erwartete Energieverschiebung von InGaP zwischen $T=80\text{ K}$ und $T=300\text{ K}$:
 \begin{eqnarray}
   \Delta E_g = 0,05948\text{ eV}
   \\
