@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.2)  16 JUL 2017 19:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.2)  16 JUL 2017 19:56
 entering extended mode
 **./template.tex
 (template.tex
@@ -744,14 +744,14 @@ f>
 (epstopdf)                    size: 66540 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Messung/allfitsplot-eps-
 converted-to.pdf ../Messung/allfitsplot.eps>
-(epstopdf)             \includegraphics on input line 131.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
 
 <../Messung/allfitsplot-eps-converted-to.pdf, id=20, 577.15625pt x 326.21875pt>
 File: ../Messung/allfitsplot-eps-converted-to.pdf Graphic file (type pdf)
 <use ../Messung/allfitsplot-eps-converted-to.pdf>
 Package pdftex.def Info: ../Messung/allfitsplot-eps-converted-to.pdf used on in
-put line 131.
+put line 133.
 (pdftex.def)             Requested size: 244.79782pt x 138.36487pt.
 Package epstopdf Info: Source file: <../Messung/energtemp.eps>
 (epstopdf)                    date: 2017-07-16 13:36:10
@@ -762,7 +762,7 @@ Package epstopdf Info: Source file: <../Messung/energtemp.eps>
 (epstopdf)                    size: 27439 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Messung/energtemp-eps-co
 nverted-to.pdf ../Messung/energtemp.eps>
-(epstopdf)             \includegraphics on input line 137.
+(epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
 
 <../Messung/energtemp-eps-converted-to.pdf, id=21, 578.16pt x 344.28625pt>
@@ -770,15 +770,15 @@ File: ../Messung/energtemp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../Messung/energtemp-eps-converted-to.pdf>
 Package pdftex.def Info: ../Messung/energtemp-eps-converted-to.pdf used on inpu
-t line 137.
+t line 139.
 (pdftex.def)             Requested size: 244.79782pt x 145.77074pt.
 
-Underfull \hbox (badness 2547) in paragraph at lines 141--145
+Underfull \hbox (badness 2547) in paragraph at lines 143--147
 \OT1/cmr/m/n/10 In den Ab-bil-dun-gen 4[] & 5[] sind die Tem-pe-ra-tu-
  []
 
 
-LaTeX Warning: Reference `fig:intInt' on page 2 undefined on input line 146.
+LaTeX Warning: Reference `fig:intInt' on page 2 undefined on input line 148.
 
 Package epstopdf Info: Source file: <../Messung/peaktemp.eps>
 (epstopdf)                    date: 2017-07-16 13:36:10
@@ -788,23 +788,23 @@ Package epstopdf Info: Source file: <../Messung/peaktemp.eps>
 (epstopdf)                    size: 19686 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Messung/peaktemp-eps-con
 verted-to.pdf ../Messung/peaktemp.eps>
-(epstopdf)             \includegraphics on input line 157.
+(epstopdf)             \includegraphics on input line 159.
 Package epstopdf Info: Output file is already uptodate.
 <../Messung/peaktemp-eps-converted-to.pdf, id=22, 578.16pt x 353.32pt>
 File: ../Messung/peaktemp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../Messung/peaktemp-eps-converted-to.pdf>
 Package pdftex.def Info: ../Messung/peaktemp-eps-converted-to.pdf used on input
- line 157.
+ line 159.
 (pdftex.def)             Requested size: 244.79782pt x 149.59563pt.
 
 
 Package natbib Warning: Citation `melissinos1966' on page 2 undefined on input 
-line 169.
+line 171.
 
 [2 <../Messung/allfitsplot-eps-converted-to.pdf> <../Messung/energtemp-eps-conv
 erted-to.pdf> <../Messung/peaktemp-eps-converted-to.pdf>]
-Underfull \hbox (badness 1112) in paragraph at lines 192--198
+Underfull \hbox (badness 1112) in paragraph at lines 194--200
 []\OT1/cmr/m/n/10 Oder auch in der Zei-le: $[] = \OMS/cmsy/m/n/10 j\OML/cmm/m/i
 t/10  []\OMS/cmsy/m/n/10 i  \OML/cmm/m/it/10 c[]\OMS/cmsy/m/n/10 j\OT1/cmr/m/n
 /10 0\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 +
@@ -812,16 +812,16 @@ t/10  []\OMS/cmsy/m/n/10 i  \OML/cmm/m/it/10 c[]\OMS/cmsy/m/n/10 j\OT1/cmr/m/n
 
 
 Package natbib Warning: Citation `bevington2003' on page 3 undefined on input l
-ine 244.
+ine 246.
 
 No file template.bbl.
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
  []\OT1/cmr/m/n/9 Prof. Dr. Tho-mas Wi-chert, Photolumineszenz-
  []
 
 
-Underfull \hbox (badness 6961) in paragraph at lines 253--254
+Underfull \hbox (badness 6961) in paragraph at lines 255--256
  []\OT1/cmr/m/n/9 FET Group, Be-nut-zer-hand-buch Elektrolumineszenz-
  []
 
@@ -864,7 +864,7 @@ ts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on template.pdf (4 pages, 462436 bytes).
+Output written on template.pdf (4 pages, 462441 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
