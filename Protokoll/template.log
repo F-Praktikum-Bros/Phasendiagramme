@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.2)  16 JUL 2017 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.2)  16 JUL 2017 19:43
 entering extended mode
 **./template.tex
 (template.tex
@@ -744,19 +744,15 @@ f>
 (epstopdf)                    size: 66540 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Messung/allfitsplot-eps-
 converted-to.pdf ../Messung/allfitsplot.eps>
-(epstopdf)             \includegraphics on input line 137.
+(epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
 <../Messung/allfitsplot-eps-converted-to.pdf, id=20, 577.15625pt x 326.21875pt>
 File: ../Messung/allfitsplot-eps-converted-to.pdf Graphic file (type pdf)
 <use ../Messung/allfitsplot-eps-converted-to.pdf>
 Package pdftex.def Info: ../Messung/allfitsplot-eps-converted-to.pdf used on in
-put line 137.
+put line 131.
 (pdftex.def)             Requested size: 244.79782pt x 138.36487pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 Package epstopdf Info: Source file: <../Messung/energtemp.eps>
 (epstopdf)                    date: 2017-07-16 13:36:10
 (epstopdf)                    size: 69214 bytes
@@ -766,22 +762,23 @@ Package epstopdf Info: Source file: <../Messung/energtemp.eps>
 (epstopdf)                    size: 27439 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Messung/energtemp-eps-co
 nverted-to.pdf ../Messung/energtemp.eps>
-(epstopdf)             \includegraphics on input line 143.
+(epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
+
 <../Messung/energtemp-eps-converted-to.pdf, id=21, 578.16pt x 344.28625pt>
 File: ../Messung/energtemp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../Messung/energtemp-eps-converted-to.pdf>
 Package pdftex.def Info: ../Messung/energtemp-eps-converted-to.pdf used on inpu
-t line 143.
+t line 137.
 (pdftex.def)             Requested size: 244.79782pt x 145.77074pt.
 
-Underfull \hbox (badness 2547) in paragraph at lines 147--151
+Underfull \hbox (badness 2547) in paragraph at lines 141--145
 \OT1/cmr/m/n/10 In den Ab-bil-dun-gen 4[] & 5[] sind die Tem-pe-ra-tu-
  []
 
 
-LaTeX Warning: Reference `fig:intInt' on page 2 undefined on input line 152.
+LaTeX Warning: Reference `fig:intInt' on page 2 undefined on input line 146.
 
 Package epstopdf Info: Source file: <../Messung/peaktemp.eps>
 (epstopdf)                    date: 2017-07-16 13:36:10
@@ -791,28 +788,23 @@ Package epstopdf Info: Source file: <../Messung/peaktemp.eps>
 (epstopdf)                    size: 19686 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Messung/peaktemp-eps-con
 verted-to.pdf ../Messung/peaktemp.eps>
-(epstopdf)             \includegraphics on input line 163.
+(epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
 <../Messung/peaktemp-eps-converted-to.pdf, id=22, 578.16pt x 353.32pt>
 File: ../Messung/peaktemp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../Messung/peaktemp-eps-converted-to.pdf>
 Package pdftex.def Info: ../Messung/peaktemp-eps-converted-to.pdf used on input
- line 163.
+ line 157.
 (pdftex.def)             Requested size: 244.79782pt x 149.59563pt.
 
 
 Package natbib Warning: Citation `melissinos1966' on page 2 undefined on input 
-line 175.
+line 169.
 
 [2 <../Messung/allfitsplot-eps-converted-to.pdf> <../Messung/energtemp-eps-conv
-erted-to.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 195.
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 198--204
+erted-to.pdf> <../Messung/peaktemp-eps-converted-to.pdf>]
+Underfull \hbox (badness 1112) in paragraph at lines 192--198
 []\OT1/cmr/m/n/10 Oder auch in der Zei-le: $[] = \OMS/cmsy/m/n/10 j\OML/cmm/m/i
 t/10  []\OMS/cmsy/m/n/10 i  \OML/cmm/m/it/10 c[]\OMS/cmsy/m/n/10 j\OT1/cmr/m/n
 /10 0\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 +
@@ -820,21 +812,21 @@ t/10  []\OMS/cmsy/m/n/10 i  \OML/cmm/m/it/10 c[]\OMS/cmsy/m/n/10 j\OT1/cmr/m/n
 
 
 Package natbib Warning: Citation `bevington2003' on page 3 undefined on input l
-ine 250.
+ine 244.
 
 No file template.bbl.
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
  []\OT1/cmr/m/n/9 Prof. Dr. Tho-mas Wi-chert, Photolumineszenz-
  []
 
 
-Underfull \hbox (badness 6961) in paragraph at lines 259--260
+Underfull \hbox (badness 6961) in paragraph at lines 253--254
  []\OT1/cmr/m/n/9 FET Group, Be-nut-zer-hand-buch Elektrolumineszenz-
  []
 
 No file template.bbl.
-[3 <../Messung/peaktemp-eps-converted-to.pdf>]
+[3]
 
 Package natbib Warning: There were undefined citations.
 
@@ -844,10 +836,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5325 strings out of 493333
- 68432 string characters out of 3139204
- 166909 words of memory out of 3000000
- 8736 multiletter control sequences out of 15000+200000
+ 5327 strings out of 493333
+ 68449 string characters out of 3139204
+ 167909 words of memory out of 3000000
+ 8738 multiletter control sequences out of 15000+200000
  16629 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,12n,28p,388b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -872,7 +864,7 @@ ts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on template.pdf (4 pages, 462190 bytes).
+Output written on template.pdf (4 pages, 462352 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
