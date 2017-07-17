@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex template"] 1500227812 "template.aux" "template.bbl" "template" 1500227813
+["bibtex template"] 1500294256 "template.aux" "template.bbl" "template" 1500294257
   "prsty.bst" 0 -1 0 ""
   "sample-paper.bib" 0 -1 0 ""
-  "template.aux" 1500227813 2799 c172427d0711f699720d0fabe8d515a9 ""
-  "templateNotes.bib" 1500227813 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "template.aux" 1500294256 2882 901916d4e03d6a7e2972a32794ae8c24 ""
+  "templateNotes.bib" 1500294256 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "template.blg"
   "template.bbl"
-["pdflatex"] 1500227813 "template.tex" "template.pdf" "template" 1500227813
-  "../Messung/allfitsplot.eps" 1500204970 174929 481d527439b998f50e33eaea17534a5e ""
+  "template.blg"
+["pdflatex"] 1500294256 "template.tex" "template.pdf" "template" 1500294257
+  "../Messung/allfitsplot.eps" 1500293508 174929 481d527439b998f50e33eaea17534a5e ""
   "../Messung/energtemp.eps" 1500204970 69214 8ec6191d2aa81a53b345e2b181014340 ""
   "../Messung/peaktemp.eps" 1500204970 49995 049ca564c4c5d83ec7191af933dff589 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233955448 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -124,11 +124,11 @@
   "C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "img/rekombinationswege.jpg" 1500204970 44082 7175a7ab84f4c96adc6742997577b971 ""
   "img/versuchsanleitung.jpg" 1500204970 40595 83c3c9dc46d6df9fd655c08e3db9f09c ""
-  "template.aux" 1500227813 2799 c172427d0711f699720d0fabe8d515a9 ""
+  "template.aux" 1500294256 2882 901916d4e03d6a7e2972a32794ae8c24 ""
   "template.bbl" 0 -1 0 "bibtex template"
-  "template.tex" 1500227811 12572 78e77672228bf0659a65b6e4584fdd3e ""
+  "template.tex" 1500294248 12556 59f899ba7fde8349d0a04f79e04f8470 ""
   (generated)
-  "template.aux"
-  "template.pdf"
-  "templateNotes.bib"
   "template.log"
+  "templateNotes.bib"
+  "template.pdf"
+  "template.aux"
