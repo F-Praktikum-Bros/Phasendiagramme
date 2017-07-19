@@ -61,6 +61,7 @@ Bindungsenergie mit den effektiven Elektron-/Lochmassen, gegeben in \cite{anleit
 \end{eqnarray}
 
 \noindent Dabei bezeichnet $\mu=\left(\frac{1}{{m_e}^*} +\frac{1}{{m_h}^*}\right)^{-1}$ die reduzierte Masse des Exzitons.
+Die Permittivität der InGaP/GaAs-Heterostruktur wurde als $\epsilon=11.75\epsilon_0$ angenommen \cite{dielek}.
 
 \begin{figure}[h]
   \centering
@@ -99,12 +100,12 @@ abspeichert und zu einem Energiespektrum verarbeitet.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Daten und Analyse}
-\subsection{Vorabüberlegungen}
+\subsection{Vorüberlegungen}
 
 \noindent Um eine bessere Einordnung der Ergebnisse zu ermöglichen, wird zunächst mithilfe einer empirischen
 Formel die temperaturabhängige Lage des Lumineszenzpeaks (entspricht Größe der Bandlücke) geschätzt.
 Hierzu berechnen wir zunächst in welcher Zusammensetzung $\text{In}_x\text{Ga}_{1-x}\text{P}$
-an GaAs gitterangepasst ist durch: $a_{GaAs} = x*a_{GaP}+(1-x)*a_{InP}$. Wir finden
+an GaAs gitterangepasst ist durch: $a_{GaAs} = x\cdot a_{GaP}+(1-x)\cdot a_{InP}$. Wir finden
 $x=0.515$ und mit der empirischen Formel (bei $\text{T}=300\text{ K}$) \cite{vorbereitung}:
 \begin{equation}
   E_{g}(x) = 1,351+0,643x+0,786x^2\text{ (eV) }
@@ -123,15 +124,29 @@ die orangene Kurve in Abb. \ref{fig:EgapT} mit einer Differenz zwischen $T=80\te
 und $T=300\text{ K}$ von:
 
 \begin{equation}
-  \Delta E_g \approx 0,05948\text{ eV} \Rightarrow \Delta\lambda \approx 20.0\text{ nm}
+  \Delta E_g \approx 60\text{ meV} \Rightarrow \Delta\lambda \approx 20.0\text{ nm}
 \label{eq:evVersch}
 \end{equation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Analyse der Spektren}
 
-Für die Fits der Messdaten wurde ein Doppelgaußfit verwendet, weil...
+\noindent Die bei verschiedenen Temperaturen aufgenommenen Spektren sind in Abbildung \ref{fig:spek} dargestellt.
+Deutlich zu erkennen ist die Abnahme der Lumineszenzintensität und die Peakverbreiterung bei steigenden Temperaturen.
+Oberhalb von ca. $165\text{ K}$ ist ein Verschmieren der linken Peakhälften hin zu kürzeren Wellenlängen zu erkennen.
+Deshalb und da bereits ab $T>100$ K ein asymmetrischer Verlauf der Kurven zu erkennen ist, wurden alle Lumineszenzpeaks
+einem Doppelgaußfit unterzogen (Mathematica).
 
+Entscheidend für die Temperaturabhängigkeit der Lumineszenz ist die bei steigenden Temperaturen immer
+relevantere Elektron-Phonon-Wechselwirkung. Vernachlässigbar bei geringen Temperaturen sorgen diese Wechselwirkungen
+bei großen Temperaturen für die sichtbare Verbreiterung der Peaks (Impulsübertrag von $e^-$ auf Phonon und umgekehrt führt
+zu geringfügig niedrigeren/höheren Photonenenergien) \cite{phonons}.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.48\textwidth]{../Messung/allfitsplot.eps}
+  \caption{\label{fig:spek} (1,2-fach) gauß-gefittete Lumineszenzspektren von InGaP zwischen $80\text{ K}$ und $250\text{ K}$ (vlnr)}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Temperaturabhängigkeit der Bandlückenenergie}
@@ -143,27 +158,31 @@ zu einer Verkleinerung der Bandlücke, die gemäß der Varshni-Formel abgeschät
    \label{eq:varshni}
 \end{equation}
 
+\noindent In den Abbildungen \ref{fig:EgapT} \& \ref{fig:lamT} sind die Temperatur-
+abhängigkeiten der Bandlückenenergie und der entsprechenden Wellenlänge dargestellt. Bei steigenden Temperaturen wurde eine deutliche
+Rotverschiebung des Intensitätsmaximums gemessen (Verkleinerung der Bandlücke). Die Rotverschiebung konnte auch durch
+direkte Beobachtung festgestellt werden. Grund hierfür ist neben der thermischen Ausdehnung des Kristallgitters (Verringerung
+der Bindungsenergie der Gitterelektronen/-löcher) die Veränderung des effektiven Kristallpotentials durch bei höheren Temperaturen
+zunehmende Elektron-Phonon-Streuung \cite{kittel}. Führt man eine Extrapolation der experimentellen Daten (Bandlücke/Wellenlänge zwischen 80
+und 255 K) durch und betrachtet die erwarteten Verschiebungen im Bereich zwischen 80 K und 300 K, lassen sich die Ergebnisse mit (\ref{eq:evVersch})
+vergleichen:
+\begin{equation}
+  \Delta E_{g,exp}\approx 74\text{ meV} \Rightarrow \Delta\lambda_{exp}\approx 23.5\text{ nm}
+   \label{eq:expVersch}
+\end{equation}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Temperaturabhängigkeit der Intensitäten}
 
 
-
-
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=0.48\textwidth]{../Messung/allfitsplot.eps}
-  \caption{\label{fig:spek} (1,2-fach) gauß-gefittete Lumineszenzspektren von InGaP zwischen $80\text{ K}$ und $250\text{ K}$ (vlnr)}
-\end{figure}
-
-\noindent Die bei verschiedenen Temperaturen aufgenommenen Spektren wurden einem Doppelgaußfit
-unterzogen (Mathematica) und sind in Abbildung \ref{fig:spek} dargestellt. Deutlich zu erkennen ist die Abnahme der
-Lumineszenzintensität und die Peakverbreiterung bei steigenden Temperaturen. Oberhalb von ca. $165\text{ K}$
-ist ein Verschmieren der linken Peakhälften hin zu kürzeren Wellenlängen zu erkennen.
-
-Die Abnahme der Lumineszenzintensität bei steigenden Temperaturen lässt sich mit der Fermi-Dirac-Verteilung
+\noindent Die Abnahme der Lumineszenzintensität bei steigenden Temperaturen lässt sich mit der Fermi-Dirac-Verteilung
 verstehen: bei steigenden Temperaturen werden zunehmend auch Zustände oberhalb der Fermi-Energie, also Zustände
 im Leitungsband bzw. Donatorzustände besetzt, die aufgrund ausreichend thermischer Energie nicht ins Valenzband
 rekombinieren und somit für eine Verminderung der Anzahl der abgestrahlten Photonen pro Zeit (und Fläche) sorgen.
+Außerdem können aufgrund von Elektron-Phonon-Wechselwirkungen (insb. bei hohen Temperaturen) mehr Ladungsträger durch
+Schwingungsrelaxation, also nicht-strahlend, ins Valenzband rekombinieren, was ebenfalls zu einer Reduktion des
+Photonenflusses führt.
 
 \begin{figure}[t]
   \centering
@@ -178,15 +197,19 @@ rekombinieren und somit für eine Verminderung der Anzahl der abgestrahlten Phot
 \end{figure}
 
 
-\noindent In den Abbildungen \ref{fig:EgapT} \& \ref{fig:lamT} sind die Temperatur-
-abhängigkeiten der Bandlückenenergie und der entsprechenden Wellenlänge dargestellt. Bei steigenden Temperaturen wurde eine deutliche
-Rotverschiebung des Intensitätsmaximums gemessen (Verkleinerung der Bandlücke). Die Rotverschiebung konnte auch durch
-direkte Beobachtung festgestellt werden. Grund hierfür ist neben der thermischen Ausdehnung des Kristallgitters (Verringerung
-der Bindungsenergie der Gitterelektronen/-löcher) die Veränderung des effektiven Kristallpotentials durch bei höheren Temperaturen
-zunehmende Elektron-Phonon-Streuung. \cite{kittel}
-
 Die integrierten Intensitäten der Spektrallinien sind in Abb. \ref{fig:intInt} dargestellt.
 
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.48\textwidth]{../Messung/integrintenstempfit.eps}
+  \caption{\label{fig:intInt}Integrierte Intensitäten der Lumineszenzpeaks bei $T=80\text{ K}$ bis $T=250\text{ K}$ (vlnr)}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.48\textwidth]{../Messung/maxintenstempfit.eps}
+  \caption{\label{fig:maxInt}Maximale Intensität der Lumineszenzpeaks bei $T=80\text{ K}$ bis $T=250\text{ K}$ (vlnr)}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Schlussfolgerung}
@@ -282,6 +305,8 @@ Tl& 0.480 & 18.90 & 3.550 & & & & \\
 \bibitem{anleitung}FET Group, Benutzerhandbuch Elektrolumineszenz-Spektroskopie, Humboldt-Universität zu Berlin
 \bibitem{vorbereitung}FET Group, Fragen zur Vorbereitung, S.1-3, Humboldt-Universität zu Berlin
 \bibitem{kittel}Ch. Kittel, Einführung in die Festkörperphysik, S.159f., 12. Auflage, Oldenbourg Verlag [1999]
+\bibitem{phonons}C. Besikci and M. Razeghi, Electron Transport Properties of Ga$_{0.51}$In$_{0.49}$P for Device Applications, IEEE Trans.Electron Devices, vol. 41, no. 6, pp. 1066-1069 [1994]
+Woo Sik Yooa, Kitaek Kanga, Gota Muraib and Masahiro Yoshimotob, Temperature Dependence of Photoluminescence Spectra from Crystalline Silicon, Kyoto Institute of Technology [2015]
 \end{thebibliography}
 
 
