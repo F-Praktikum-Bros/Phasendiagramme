@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     98512,       2547]
-NotebookOptionsPosition[     97717,       2518]
-NotebookOutlinePosition[     98071,       2534]
-CellTagsIndexPosition[     98028,       2531]
+NotebookDataLength[     98553,       2548]
+NotebookOptionsPosition[     97758,       2519]
+NotebookOutlinePosition[     98112,       2535]
+CellTagsIndexPosition[     98069,       2532]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2073,7 +2073,8 @@ Cell[BoxData[
          RowBox[{"{", 
           RowBox[{"temperatures", ",", "allintintplot"}], "}"}], "]"}], 
         "]"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
-   RowBox[{"intensityfit", "[", "\"\<BestFitParameters\>\"", "]"}], 
+   RowBox[{
+    RowBox[{"intensityfit", "[", "\"\<BestFitParameters\>\"", "]"}], ";"}], 
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"Export", "[", 
@@ -2108,7 +2109,7 @@ Cell[BoxData[
    3.709446639693574*^9, 3.709446643528336*^9}, {3.709456112658401*^9, 
    3.709456181018334*^9}, {3.709456291897622*^9, 3.709456374156204*^9}, {
    3.709456406528708*^9, 3.709456442706361*^9}, {3.709456494759431*^9, 
-   3.709456501508383*^9}, 3.709469215226783*^9}],
+   3.709456501508383*^9}, 3.709469215226783*^9, 3.70946992695312*^9}],
 
 Cell[BoxData[
  TagBox[
@@ -2543,12 +2544,12 @@ Cell[63146, 1695, 1439, 23, 24, "Message"]
 Cell[64600, 1721, 3088, 70, 165, "Input"],
 Cell[67691, 1793, 3391, 78, 165, "Input"],
 Cell[CellGroupData[{
-Cell[71107, 1875, 9589, 235, 432, "Input"],
-Cell[80699, 2112, 1730, 40, 65, "Output"],
-Cell[82432, 2154, 3813, 77, 374, "Output"],
-Cell[86248, 2233, 3826, 77, 379, "Output"]
+Cell[71107, 1875, 9630, 236, 432, "Input"],
+Cell[80740, 2113, 1730, 40, 65, "Output"],
+Cell[82473, 2155, 3813, 77, 374, "Output"],
+Cell[86289, 2234, 3826, 77, 379, "Output"]
 }, Open  ]],
-Cell[90089, 2313, 7624, 203, 425, "Input"]
+Cell[90130, 2314, 7624, 203, 425, "Input"]
 }
 ]
 *)
