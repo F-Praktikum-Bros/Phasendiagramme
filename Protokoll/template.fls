@@ -1,4 +1,4 @@
-PWD D:/doc/physik/FPR/github/compton/LUM/Praktikum_LUM/Protokoll
+PWD D:/doc/physik/FPR/github/lum/Praktikum_LUM/Protokoll
 INPUT C:/Users/MP/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
 INPUT template.tex
 OUTPUT template.log
@@ -156,6 +156,36 @@ INPUT ./img/versuchsanleitung.jpg
 INPUT ./img/versuchsanleitung.jpg
 INPUT ./img/versuchsanleitung.jpg
 INPUT C:/Users/MP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+INPUT ../Messung/allfitsplot.eps
+INPUT ../Messung/allfitsplot.eps
+INPUT ../Messung/allfitsplot.eps
+INPUT ../Messung/allfitsplot-eps-converted-to.pdf
+INPUT ../Messung/allfitsplot-eps-converted-to.pdf
+INPUT ../Messung/allfitsplot.eps
+INPUT ../Messung/allfitsplot-eps-converted-to.pdf
+INPUT ../Messung/allfitsplot-eps-converted-to.pdf
+INPUT ../Messung/allfitsplot-eps-converted-to.pdf
+INPUT ../Messung/allfitsplot-eps-converted-to.pdf
+INPUT ../Messung/energtemp.eps
+INPUT ../Messung/energtemp.eps
+INPUT ../Messung/energtemp.eps
+INPUT ../Messung/energtemp-eps-converted-to.pdf
+INPUT ../Messung/energtemp-eps-converted-to.pdf
+INPUT ../Messung/energtemp.eps
+INPUT ../Messung/energtemp-eps-converted-to.pdf
+INPUT ../Messung/energtemp-eps-converted-to.pdf
+INPUT ../Messung/energtemp-eps-converted-to.pdf
+INPUT ../Messung/energtemp-eps-converted-to.pdf
+INPUT ../Messung/peaktemp.eps
+INPUT ../Messung/peaktemp.eps
+INPUT ../Messung/peaktemp.eps
+INPUT ../Messung/peaktemp-eps-converted-to.pdf
+INPUT ../Messung/peaktemp-eps-converted-to.pdf
+INPUT ../Messung/peaktemp.eps
+INPUT ../Messung/peaktemp-eps-converted-to.pdf
+INPUT ../Messung/peaktemp-eps-converted-to.pdf
+INPUT ../Messung/peaktemp-eps-converted-to.pdf
+INPUT ../Messung/peaktemp-eps-converted-to.pdf
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmtt10.tfm
 INPUT template.aux
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -192,6 +222,8 @@ INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
