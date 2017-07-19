@@ -10,24 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-<<<<<<< HEAD
 NotebookDataLength[     33275,        753]
 NotebookOptionsPosition[     32679,        727]
 NotebookOutlinePosition[     33035,        743]
 CellTagsIndexPosition[     32992,        740]
-=======
-<<<<<<< HEAD
-NotebookDataLength[      7497,        220]
-NotebookOptionsPosition[      7025,        200]
-NotebookOutlinePosition[      7370,        215]
-CellTagsIndexPosition[      7327,        212]
-=======
-NotebookDataLength[     31485,        701]
-NotebookOptionsPosition[     31002,        679]
-NotebookOutlinePosition[     31359,        695]
-CellTagsIndexPosition[     31316,        692]
->>>>>>> refs/remotes/origin/master
->>>>>>> origin/Max'-branch
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -43,9 +29,11 @@ Cell[BoxData[
    RowBox[{
     RowBox[{
      SubscriptBox["a", "InP"], "=", "5.8687"}], ";"}], "\[IndentingNewLine]", 
+   
    RowBox[{
     RowBox[{
      SubscriptBox["a", "GaP"], "=", "5.4505"}], ";"}], "\[IndentingNewLine]", 
+   
    RowBox[{
     RowBox[{
      SubscriptBox["a", "GaAs"], "=", "5.65325"}], ";"}], 
@@ -116,23 +104,24 @@ Cell[BoxData[
             RowBox[{"(", 
              RowBox[{"1", "-", "x"}], ")"}], "*", 
             SubscriptBox["a", "InP"]}]}]}], ",", "x"}], "]"}]}], "]"}]}], 
-    ";"}], "\[IndentingNewLine]", "x", "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{
     "Bandl\[UDoubleDot]cke", " ", "f\[UDoubleDot]r", " ", "diese", " ", 
      "Zusammenensetzung", " ", "in", " ", "eV", " ", "bei", " ", "300", "K"}],
      " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
-    SubscriptBox["Eg", "misch"], "=", 
-    RowBox[{"1.351", "+", 
-     RowBox[{"0.643", "*", "x"}], "+", 
-     RowBox[{"0.786", "*", 
-      RowBox[{"x", "^", "2"}]}]}]}], "\[IndentingNewLine]", 
+    RowBox[{
+     SubscriptBox["Eg", "misch"], "=", 
+     RowBox[{"1.351", "+", 
+      RowBox[{"0.643", "*", "x"}], "+", 
+      RowBox[{"0.786", "*", 
+       RowBox[{"x", "^", "2"}]}]}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
-    SubscriptBox["\[Lambda]", "misch"], "=", 
-    RowBox[{"1240", "/", 
-     SubscriptBox["Eg", "misch"]}]}], "\[IndentingNewLine]", 
+    RowBox[{
+     SubscriptBox["\[Lambda]", "misch"], "=", 
+     RowBox[{"1240", "/", 
+      SubscriptBox["Eg", "misch"]}]}], ";"}], "\[IndentingNewLine]", 
    "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{
@@ -153,28 +142,6 @@ Cell[BoxData[
    "\[IndentingNewLine]", 
    RowBox[{
     SubscriptBox["Eg", "misch80"], "=", 
-<<<<<<< HEAD
-    RowBox[{"Test", "+", 
-     RowBox[{"(", 
-      RowBox[{
-       RowBox[{"x", "*", 
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{
-           SubscriptBox["Eg", "GaP"], "[", "80", "]"}], "-", 
-          RowBox[{
-           SubscriptBox["Eg", "GaP"], "[", "300", "]"}]}], ")"}]}], "+", 
-       RowBox[{
-        RowBox[{"(", 
-         RowBox[{"1", "-", "x"}], ")"}], "*", 
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{
-           SubscriptBox["Eg", "InP"], "[", "80", "]"}], "-", 
-          RowBox[{
-           SubscriptBox["Eg", "InP"], "[", "300", "]"}]}], ")"}]}]}], 
-      ")"}]}]}], "\[IndentingNewLine]", 
-=======
     RowBox[{
      RowBox[{"x", "*", 
       RowBox[{
@@ -186,7 +153,6 @@ Cell[BoxData[
        SubscriptBox["Eg", "InP"], "[", "80", "]"}]}], "+", 
      RowBox[{"(", 
       RowBox[{"2.01", "-", "1.88"}], ")"}]}]}], "\[IndentingNewLine]", 
->>>>>>> refs/remotes/origin/master
    RowBox[{
     SubscriptBox["\[Lambda]", "misch80"], "=", 
     RowBox[{"1240", "/", 
@@ -202,35 +168,6 @@ Cell[BoxData[
    3.708322844840222*^9, 3.708322863092458*^9}, {3.7083229046489*^9, 
    3.7083229554925957`*^9}, {3.708322999844633*^9, 3.708323045016287*^9}, {
    3.70832308616096*^9, 3.708323131725691*^9}, {3.7083232438793364`*^9, 
-<<<<<<< HEAD
-   3.708323248680393*^9}, {3.709192429996787*^9, 3.709192449420496*^9}, {
-   3.7091925022040863`*^9, 3.7091925082675066`*^9}}],
-
-Cell[BoxData["0.5151841224294592`"], "Output",
- CellChangeTimes->{{3.709192430968366*^9, 3.709192450196097*^9}, {
-  3.7091925120824394`*^9, 3.709192515596628*^9}}],
-
-Cell[BoxData["1.890879329204824`"], "Output",
- CellChangeTimes->{{3.709192430968366*^9, 3.709192450196097*^9}, {
-  3.7091925120824394`*^9, 3.7091925155991354`*^9}}],
-
-Cell[BoxData["655.7795523215435`"], "Output",
- CellChangeTimes->{{3.709192430968366*^9, 3.709192450196097*^9}, {
-  3.7091925120824394`*^9, 3.7091925156001377`*^9}}],
-
-Cell[BoxData["1.9503606555093942`"], "Output",
- CellChangeTimes->{{3.709192430968366*^9, 3.709192450196097*^9}, {
-  3.7091925120824394`*^9, 3.7091925156011405`*^9}}],
-
-Cell[BoxData["635.7798474334674`"], "Output",
- CellChangeTimes->{{3.709192430968366*^9, 3.709192450196097*^9}, {
-  3.7091925120824394`*^9, 3.709192515602644*^9}}]
-}, Open  ]]
-},
-WindowSize->{808, 555},
-WindowMargins->{{4, Automatic}, {Automatic, 4}},
-FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (September 21, 2016)",
-=======
    3.708323248680393*^9}, {3.7088331059577017`*^9, 3.708833120717964*^9}, {
    3.70883318608045*^9, 3.708833193301199*^9}, {3.708833875790597*^9, 
    3.7088339199317837`*^9}, {3.708833958946553*^9, 3.70883396642555*^9}}],
@@ -792,7 +729,6 @@ WindowSize->{808, 555},
 WindowMargins->{{Automatic, 172}, {Automatic, 43}},
 FrontEndVersion->"10.4 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 11, \
 2016)",
->>>>>>> refs/remotes/origin/master
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -807,31 +743,17 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-<<<<<<< HEAD
-Cell[580, 22, 5596, 155, 557, "Input"],
-Cell[6179, 179, 163, 2, 30, "Output"],
-Cell[6345, 183, 164, 2, 30, "Output"],
-Cell[6512, 187, 164, 2, 30, "Output"],
-Cell[6679, 191, 165, 2, 30, "Output"],
-Cell[6847, 195, 162, 2, 63, "Output"]
-=======
 Cell[580, 22, 5434, 150, 456, "Input"],
 Cell[6017, 174, 141, 2, 28, "Output"],
 Cell[6161, 178, 139, 2, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-<<<<<<< HEAD
 Cell[6337, 185, 784, 24, 47, "Input"],
 Cell[7124, 211, 23925, 467, 239, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[31086, 683, 1389, 37, 63, "Input"],
 Cell[32478, 722, 185, 2, 28, "Output"]
-=======
-Cell[6337, 185, 721, 22, 47, "Input"],
-Cell[7061, 209, 23925, 467, 239, "Output"]
->>>>>>> refs/remotes/origin/master
->>>>>>> origin/Max'-branch
 }, Open  ]]
 }
 ]
