@@ -11,7 +11,6 @@ NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
 <<<<<<< HEAD
-<<<<<<< HEAD
 NotebookDataLength[     33275,        753]
 NotebookOptionsPosition[     32679,        727]
 NotebookOutlinePosition[     33035,        743]
@@ -22,12 +21,6 @@ NotebookOptionsPosition[     12811,        326]
 NotebookOutlinePosition[     13156,        341]
 CellTagsIndexPosition[     13113,        338]
 >>>>>>> origin/master
-=======
-NotebookDataLength[     31485,        701]
-NotebookOptionsPosition[     31002,        679]
-NotebookOutlinePosition[     31359,        695]
-CellTagsIndexPosition[     31316,        692]
->>>>>>> parent of f33a385... neue plots
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -318,28 +311,30 @@ Cell[BoxData[""], "Input",
 
 <<<<<<< HEAD
 Cell[BoxData[
- RowBox[{"Plot", "[", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{
+ RowBox[{
+  RowBox[{"Plot", "[", 
+   RowBox[{
+    RowBox[{"{", 
      RowBox[{
-      SubscriptBox["Eg", "InP"], "[", "T", "]"}], ",", 
-     RowBox[{
-      SubscriptBox["Eg", "GaP"], "[", "T", "]"}], ",", 
-     RowBox[{
-      RowBox[{"x", "*", 
-       RowBox[{
-        SubscriptBox["Eg", "GaP"], "[", "T", "]"}]}], "+", 
       RowBox[{
-       RowBox[{"(", 
-        RowBox[{"1", "-", "x"}], ")"}], "*", 
+       SubscriptBox["Eg", "InP"], "[", "T", "]"}], ",", 
+      RowBox[{
+       SubscriptBox["Eg", "GaP"], "[", "T", "]"}], ",", 
+      RowBox[{
+       RowBox[{"x", "*", 
+        RowBox[{
+         SubscriptBox["Eg", "GaP"], "[", "T", "]"}]}], "+", 
        RowBox[{
-        SubscriptBox["Eg", "InP"], "[", "T", "]"}]}]}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"T", ",", "0", ",", "300"}], "}"}], ",", 
-   RowBox[{"PlotLegends", "\[Rule]", "\"\<Expressions\>\""}]}], 
-  "]"}]], "Input",
- CellChangeTimes->{{3.708833200897208*^9, 3.70883326717972*^9}}],
+        RowBox[{"(", 
+         RowBox[{"1", "-", "x"}], ")"}], "*", 
+        RowBox[{
+         SubscriptBox["Eg", "InP"], "[", "T", "]"}]}]}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"T", ",", "0", ",", "300"}], "}"}], ",", 
+    RowBox[{"PlotLegends", "\[Rule]", "\"\<Expressions\>\""}]}], "]"}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.708833200897208*^9, 3.70883326717972*^9}, 
+   3.709456696419599*^9}],
 
 Cell[BoxData[
  TemplateBox[{GraphicsBox[{{{{}, {}, {
@@ -809,10 +804,56 @@ wMUVHn3S2GHpOtIRVwnQq9G3qzMjUcxRsl25hQCrfWHRfOyEtP8dqG8lQCbd
          RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
  CellChangeTimes->{{3.7088332507780457`*^9, 3.708833267935687*^9}, 
    3.70883349344028*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"Berechnung", " ", "Exzitonen", " ", "bindungungsenergie"}], " ", 
+   "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"from", ":", " ", "http", ":"}], "//", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"www", ".", "ioffe", ".", "ru"}], "/", "SVA"}], "/", "NSM"}],
+        "/", "Semicond"}], "/", "GaInP"}], "/", 
+     RowBox[{"basic", ".", "html"}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   SubscriptBox["E", "exi"], "=", 
+   RowBox[{
+    RowBox[{"1", "/", 
+     RowBox[{"11", "^", "2"}]}], "*", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"0.08", "*", 
+       RowBox[{"0.7", "/", 
+        RowBox[{"(", 
+         RowBox[{"0.08", "+", "0.7"}], ")"}]}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{"1836", "/", 
+       RowBox[{"(", 
+        RowBox[{"1836", "+", "1"}], ")"}]}], ")"}]}], "*", 
+    "13.6"}]}]}]], "Input",
+ CellChangeTimes->{{3.709456700161528*^9, 3.709456712557891*^9}, {
+   3.709456757137323*^9, 3.709456796153804*^9}, 3.7094568440433207`*^9, {
+   3.7094568786947203`*^9, 3.709456944805794*^9}, {3.7094569839193172`*^9, 
+   3.709457005367282*^9}, {3.709457269062128*^9, 3.709457270290759*^9}, {
+   3.7094573946625977`*^9, 3.7094573990172167`*^9}, 3.709457504553925*^9, {
+   3.70945774858827*^9, 3.709457748983657*^9}}],
+
+Cell[BoxData["0.008073901407234742`"], "Output",
+ CellChangeTimes->{{3.709456996242277*^9, 3.70945700609188*^9}, 
+   3.709457270985964*^9, 3.7094575050823517`*^9, 3.709457749566236*^9}]
 }, Open  ]]
 },
 WindowSize->{808, 555},
-WindowMargins->{{Automatic, -248}, {Automatic, 28}},
+WindowMargins->{{Automatic, 172}, {Automatic, 43}},
 FrontEndVersion->"10.4 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 11, \
 2016)",
 =======
@@ -865,8 +906,12 @@ Cell[11805, 296, 138, 2, 30, "Output"]
 }, Open  ]],
 <<<<<<< HEAD
 Cell[CellGroupData[{
-Cell[6337, 185, 721, 22, 47, "Input"],
-Cell[7061, 209, 23925, 467, 239, "Output"]
+Cell[6337, 185, 784, 24, 47, "Input"],
+Cell[7124, 211, 23925, 467, 239, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31086, 683, 1389, 37, 63, "Input"],
+Cell[32478, 722, 185, 2, 28, "Output"]
 }, Open  ]]
 =======
 Cell[11958, 301, 94, 1, 30, InheritFromParent],
