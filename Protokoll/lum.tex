@@ -25,7 +25,7 @@ nofootinbib,superscriptaddress]{revtex4-1}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
 Untersucht wird das Lumineszenzspektrum einer InGaP/GaAs-Photodiode im Temperaturbereich zwischen
-$80\text{K}$ und $255\text{K}$. Die Fluoreszenzmessung wird mithilfe eines Czerny-Turner-Spektrometers
+$80\text{ K}$ und $255\text{ K}$. Die Fluoreszenzmessung wird mithilfe eines Czerny-Turner-Spektrometers
 und einer Photomultiplier-Tube realisiert. Wir treffen Aussagen über den Verlauf des Spektrums, die
 Temperaturabhängigkeit des Lumineszenzpeaks, den thermischen Einluss auf die integrierte Peakintensität und
 wir geben eine Abschätzung für die Aktivierungsenergie zur Lumineszenz von InGaP an.
@@ -99,45 +99,55 @@ abspeichert und zu einem Energiespektrum verarbeitet.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Daten und Analyse}
+\subsection{Vorabüberlegungen}
 
 \noindent Um eine bessere Einordnung der Ergebnisse zu ermöglichen, wird zunächst mithilfe einer empirischen
-Formel die temperaturabhängige Lage des Lumineszenzpeaks (entspricht Größe der Bandlücke) theoretisch berechnet.
-Dazu wurde die vereinfachende Annahme getroffen, dass die Zusammensetzung des $\text{In}_x\text{Ga}_{1-x}\text{P}$
-auf Gitteranpassung an GaAs optimiert wurde. Der unter dieser Voraussetzung von uns berechnete,
-optimale Wert ist $x=0.515$. Daraus folgt für diese Zusammensetzung mit der empirischen Formel \cite{vorbereitung}
+Formel die temperaturabhängige Lage des Lumineszenzpeaks (entspricht Größe der Bandlücke) geschätzt.
+Hierzu berechnen wir zunächst in welcher Zusammensetzung $\text{In}_x\text{Ga}_{1-x}\text{P}$
+an GaAs gitterangepasst ist durch: $a_{GaAs} = x*a_{GaP}+(1-x)*a_{InP}$. Wir finden
+$x=0.515$ und mit der empirischen Formel (bei $\text{T}=300\text{ K}$) \cite{vorbereitung}:
 \begin{equation}
-  E_{g}(x) = 1,351+0,643x+0,786x^2\text{ (eV), }T=300\text{ K}
+  E_{g}(x) = 1,351+0,643x+0,786x^2\text{ (eV) }
    \label{eq:Ex}
 \end{equation}
 
-\noindent eine theoretische Bandlückenenergie mit entsprechender Wellenlänge von
-\begin{eqnarray}
-  E_{g,th} = 1.89\text{ eV}\text{ bei }T=300\text{ K}
-  \\
-  \nonumber
-  \lambda = 656,52\text{ nm}\qquad\qquad\quad\;
+\noindent eine geschätzte Bandlückenenergie mit entsprechender Wellenlänge von
+\begin{equation}
+  E_g \approx 1.89\text{ eV} \Rightarrow  \lambda \approx 656,52\text{ nm}
   \label{eq:evEgap300K}
-\end{eqnarray}
+\end{equation}
+
+\noindent Um nun die Verschiebung von $E_g$ mit der Temperatur zu bestimmen, wurden
+die temperaturabhängigen Bandlückenenergien von InP und GaP gewichtet und wir erhalten
+die orangene Kurve in Abb. \ref{fig:EgapT} mit einer Differenz zwischen $T=80\text{ K}$
+und $T=300\text{ K}$ von:
+
+\begin{equation}
+  \Delta E_g \approx 0,05948\text{ eV} \Rightarrow \Delta\lambda \approx 20.0\text{ nm}
+\label{eq:evVersch}
+\end{equation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Analyse der Spektren}
+
+Für die Fits der Messdaten wurde ein Doppelgaußfit verwendet, weil...
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Temperaturabhängigkeit der Bandlückenenergie}
 
 \noindent Die Erwärmung des Kristalls führt zu einer Verschiebung der Valenz- und Leitungsbänder und insbesondere
 zu einer Verkleinerung der Bandlücke, die gemäß der Varshni-Formel abgeschätzt werden kann:
 \begin{equation}
-  E_g(T) = E_g(0\text{ K})-\alpha\cdot\frac{T^2}{T+\beta}
+  E_g(T) = E_g(\text{T}=0\text{ K})-\alpha\cdot\frac{T^2}{T+\beta}
    \label{eq:varshni}
 \end{equation}
 
-\noindent Eine mit dem Mengenverhältnis x gewichtete Mittelung der Bandlückenenergien von Indium und Gallium bei $T=80\text{ K}$, berechnet nach den
-materialspezifischen Gleichungen ((\ref{eq:varshni}) mit $\alpha$, $\beta$ aus \cite{vorbereitung}), liefert zusammen mit (\ref{eq:evEgap300K})
-die erwartete Energieverschiebung von InGaP zwischen $T=80\text{ K}$ und $T=300\text{ K}$:
-\begin{eqnarray}
-  \Delta E_g = 0,05948\text{ eV}
-  \\
-  \nonumber
-  \Delta\lambda = 20.0\text{ nm}\;\;\;\;\,\,
-\label{eq:evVersch}
-\end{eqnarray}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Temperaturabhängigkeit der Intensitäten}
 
-%%%%
+
+
 
 \begin{figure}[h!]
   \centering
@@ -145,8 +155,8 @@ die erwartete Energieverschiebung von InGaP zwischen $T=80\text{ K}$ und $T=300\
   \caption{\label{fig:spek} (1,2-fach) gauß-gefittete Lumineszenzspektren von InGaP zwischen $80\text{ K}$ und $250\text{ K}$ (vlnr)}
 \end{figure}
 
-\noindent Die bei verschiedenen Temperaturen aufgenommenen Spektren wurden einem Gauß- bzw. Doppelgaußfit
-unterzogen (Matlab) und sind in Abbildung \ref{fig:spek} dargestellt. Deutlich zu erkennen ist die Abnahme der
+\noindent Die bei verschiedenen Temperaturen aufgenommenen Spektren wurden einem Doppelgaußfit
+unterzogen (Mathematica) und sind in Abbildung \ref{fig:spek} dargestellt. Deutlich zu erkennen ist die Abnahme der
 Lumineszenzintensität und die Peakverbreiterung bei steigenden Temperaturen. Oberhalb von ca. $165\text{ K}$
 ist ein Verschmieren der linken Peakhälften hin zu kürzeren Wellenlängen zu erkennen.
 
