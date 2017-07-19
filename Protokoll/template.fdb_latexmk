@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex template"] 1500415479 "template.aux" "template.bbl" "template" 1500415480
+["bibtex template"] 1500463479 "template.aux" "template.bbl" "template" 1500463479
   "prsty.bst" 0 -1 0 ""
   "sample-paper.bib" 0 -1 0 ""
-  "template.aux" 1500415480 2877 0688cb5ffb8755bd2937464ecf0d6f5c ""
-  "templateNotes.bib" 1500415480 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "template.aux" 1500463423 2974 ea1d746b454441ca2571aecc405f7a16 ""
+  "templateNotes.bib" 1500463423 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "template.bbl"
   "template.blg"
-["pdflatex"] 1500415479 "template.tex" "template.pdf" "template" 1500415480
+["pdflatex"] 1500463423 "template.tex" "template.pdf" "template" 1500463479
   "../Messung/allfitsplot.eps" 1500293508 174929 481d527439b998f50e33eaea17534a5e ""
   "../Messung/energtemp.eps" 1500204970 69214 8ec6191d2aa81a53b345e2b181014340 ""
   "../Messung/peaktemp.eps" 1500204970 49995 049ca564c4c5d83ec7191af933dff589 ""
@@ -68,6 +68,7 @@
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1247596666 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1247596666 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1247596667 32587 65067f817f408bc71a7312f3d9828a9b ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb" 1247596667 36310 f5ddc6715cc60deb16d9db5ded6a9391 ""
@@ -124,11 +125,11 @@
   "C:/Users/MP/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "img/rekombinationswege.jpg" 1500204970 44082 7175a7ab84f4c96adc6742997577b971 ""
   "img/versuchsanleitung.jpg" 1500204970 40595 83c3c9dc46d6df9fd655c08e3db9f09c ""
-  "template.aux" 1500415480 2877 0688cb5ffb8755bd2937464ecf0d6f5c ""
+  "template.aux" 1500463423 2974 ea1d746b454441ca2571aecc405f7a16 ""
   "template.bbl" 0 -1 0 "bibtex template"
-  "template.tex" 1500415476 13278 22433dbfe39add0d5e72667874bb6d7e ""
+  "template.tex" 1500463478 13830 bb65f9ad4214d510f0552de92dc9b737 ""
   (generated)
   "template.log"
-  "template.aux"
   "templateNotes.bib"
+  "template.aux"
   "template.pdf"

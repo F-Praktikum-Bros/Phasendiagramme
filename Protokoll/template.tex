@@ -50,7 +50,17 @@ Liegt ein dotierter Halbleiter vor, speziell z.B. eine Heterostruktur mit pn-Üb
 und Valenzband Donator- (knapp unter Leitungsbandkante) und Akzeptorzustände (knapp über der Valenzbandkante). Ebenfalls für die
 Lumineszenz relevant sind sog. Exzitonen-Zustände (gebundene Elektron-Loch-Paare). Bei guter Kühlung (wenig thermischer
 Anregung) sind neben dem direkten Übergang (LB$\rightarrow$VB) daher auch andere Übergänge, z.B. Exzitonen-Rekombination,
-Übergänge vom Donator- zum Akzeptorniveau (D,A) oder ins Valenzband (D,h) sichtbar.
+Übergänge vom Donator- zum Akzeptorniveau (D,A) oder ins Valenzband (D,h) sichtbar. Im Falle von InGaP lässt sich die exzitonische
+Bindungsenergie mit den effektiven Elektron-/Lochmassen, gegeben in \cite{anleitung}, in der Wasserstoffnäherung berechnen:
+\begin{eqnarray}
+  E_{n} = \frac{\mu\cdot e^4}{32\pi^2\hbar^2\epsilon^2\epsilon_0^2}\cdot\frac{1}{n^2}
+  \\[6pt]
+  \nonumber
+  E_{n}<E_{1} = 7\text{ meV}\;\;\;\;\,\,\,
+  \label{eq:exitEbind}
+\end{eqnarray}
+
+\noindent Dabei bezeichnet $\mu=\left(\frac{1}{{m_e}^*} +\frac{1}{{m_h}^*}\right)^{-1}$ die reduzierte Masse des Exzitons.
 
 \begin{figure}[h!]
   \centering
@@ -83,7 +93,7 @@ Monochromator (Schrittmotorsteuerung) können verschiedene Spektralbereiche sele
 gemessen wird. Dieser arbeitet mit einer Beschleunigungsspannung von $U_\text{PMT}=2,2\text{ kV}$. Zwecks Maximierung des
 Signal-Rausch-Verhältnisses wurde die PMT ebenfalls gekühlt (Peltierelement mit Wasserkühlung). Das Signal der Photonenvervielfachers
 gelangt dann über einen Analog-Digital-Wandler zum Computer, der die Messsignale zusammen mit der Schrittmotorposition des Monochromators
-abspeichert und zu einem Energiespektrum verarbeitet.\newpage
+abspeichert und zu einem Energiespektrum verarbeitet.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
