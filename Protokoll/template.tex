@@ -24,11 +24,11 @@ nofootinbib,superscriptaddress]{revtex4-1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-Untersucht wird das Lumineszenzspektrum einer InGaP/GaAs-Photodiode im Temperaturbereich zwischen
-$80\text{ K}$ und $255\text{ K}$. Die Fluoreszenzmessung wird mithilfe eines Czerny-Turner-Spektrometers
+Untersucht wird das Lumineszenzspektrum einer InGaP-Photodiode im Temperaturbereich zwischen
+$80\text{ K}$ und $250\text{ K}$. Die Fluoreszenzmessung wird mithilfe eines Czerny-Turner-Spektrometers
 und einer Photomultiplier-Tube realisiert. Wir treffen Aussagen über den Verlauf des Spektrums, die
 Temperaturabhängigkeit des Lumineszenzpeaks, den thermischen Einluss auf die integrierte Peakintensität und
-wir geben eine Abschätzung für die Aktivierungsenergie zur Lumineszenz von InGaP an.
+wir geben eine Abschätzung für die Aktivierungsenergie von InGaP an.
 \end{abstract}
 
 
@@ -45,22 +45,12 @@ beschreiben. So finden die elektronischen Übergänge vor allem aus dem Leitungs
 Anregung des Materials mit ausreichend Energie ($E>E_g$) Lumineszenzphotonen mit einer der Bandlücke entsprechenden
 Frequenz erzeugt werden (direkter Übergang).\newline
 
-\noindent Es gibt verschiedene Rekombinationswege für ein sich im angeregten Zustand befindlichendes System (s. Abb. \ref{fig:rekomb} ) \cite{saarland}.
+\noindent Es gibt verschiedene Rekombinationswege für ein sich im angeregten Zustand befindlichendes System (s. \ref{fig:rekomb} ) \cite{saarland}.
 Liegt ein dotierter Halbleiter vor, speziell z.B. eine Heterostruktur mit pn-Übergang, gibt es im Bereich zwischen Leitungs-
 und Valenzband Donator- (knapp unter Leitungsbandkante) und Akzeptorzustände (knapp über der Valenzbandkante). Ebenfalls für die
 Lumineszenz relevant sind sog. Exzitonen-Zustände (gebundene Elektron-Loch-Paare). Bei guter Kühlung (wenig thermischer
 Anregung) sind neben dem direkten Übergang (LB$\rightarrow$VB) daher auch andere Übergänge, z.B. Exzitonen-Rekombination,
-Übergänge vom Donator- zum Akzeptorniveau (D,A) oder ins Valenzband (D,h) sichtbar. Im Falle von InGaP lässt sich die exzitonische
-Bindungsenergie mit den effektiven Elektron-/Lochmassen, gegeben in \cite{anleitung}, in der Wasserstoffnäherung berechnen:
-\begin{eqnarray}
-  E_{n} = \frac{\mu\cdot e^4}{32\pi^2\hbar^2\epsilon^2\epsilon_0^2}\cdot\frac{1}{n^2}
-  \\[6pt]
-  \nonumber
-  E_{n}<E_{1} = 7\text{ meV}\;\;\;\;\,\,\,
-  \label{eq:exitEbind}
-\end{eqnarray}
-
-\noindent Dabei bezeichnet $\mu=\left(\frac{1}{{m_e}^*} +\frac{1}{{m_h}^*}\right)^{-1}$ die reduzierte Masse des Exzitons.
+Übergänge vom Donator- zum Akzeptorniveau (D,A) oder ins Valenzband (D,h) sichtbar.
 
 \begin{figure}[h!]
   \centering
@@ -75,8 +65,8 @@ Bindungsenergie mit den effektiven Elektron-/Lochmassen, gegeben in \cite{anleit
 
 \section{Experiment}
 
-\noindent Der Versuchsaufbau ist schematisch in Abbildung \ref{fig:versuch} dargestellt. Die Anregung der Diode erfolgt durch Anlegen einer
-Spannung mittels einer externen Versorgung, die einen konstanten Strom von $I=30\text{$\mu$A}$ liefert. Dazu sind die elektrischen Verbindungen bereits an der Probe angebracht.
+\noindent Der Versuchsaufbau ist schematisch in \ref{fig:versuch} dargestellt. Die Anregung der InGaP-Diode erfolgt durch Anlegen einer
+Spannung mittels einer externen Konstantstromversorgung. Dazu sind die elektrischen Verbindungen bereits an der Probe angebracht.
 Diese befindet sich in einem evakuierten ($p\sim 2\text{ Pa}$) und auf $80\text{ K}$ Stickstoff-temperierten Kryostaten. Die Temperaturmessung
 erfolgt durch einen Sensor, der möglichst nahe an der Probe platziert wurde.
 
@@ -94,106 +84,6 @@ gemessen wird. Dieser arbeitet mit einer Beschleunigungsspannung von $U_\text{PM
 Signal-Rausch-Verhältnisses wurde die PMT ebenfalls gekühlt (Peltierelement mit Wasserkühlung). Das Signal der Photonenvervielfachers
 gelangt dann über einen Analog-Digital-Wandler zum Computer, der die Messsignale zusammen mit der Schrittmotorposition des Monochromators
 abspeichert und zu einem Energiespektrum verarbeitet.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Daten und Analyse}
-
-\noindent Um eine bessere Einordnung der Ergebnisse zu ermöglichen, wird zunächst mithilfe einer empirischen
-Formel die temperaturabhängige Lage des Lumineszenzpeaks (entspricht Größe der Bandlücke) theoretisch berechnet.
-Dazu wurde die vereinfachende Annahme getroffen, dass die Zusammensetzung des $\text{In}_x\text{Ga}_{1-x}\text{P}$
-auf Gitteranpassung an GaAs optimiert wurde. Der unter dieser Voraussetzung von uns berechnete,
-optimale Wert ist $x=0.515$. Daraus folgt für diese Zusammensetzung mit der empirischen Formel \cite{vorbereitung}
-\begin{equation}
-  E_{g}(x) = 1,351+0,643x+0,786x^2\text{ (eV), }T=300\text{ K}
-   \label{eq:Ex}
-\end{equation}
-
-\noindent eine theoretische Bandlückenenergie mit entsprechender Wellenlänge von
-\begin{eqnarray}
-  E_{g,th} = 1.89\text{ eV}\text{ bei }T=300\text{ K}
-  \\
-  \nonumber
-  \lambda = 656,52\text{ nm}\qquad\qquad\quad\;
-  \label{eq:evEgap300K}
-\end{eqnarray}
-
-\noindent Die Erwärmung des Kristalls führt zu einer Verschiebung der Valenz- und Leitungsbänder und insbesondere
-zu einer Verkleinerung der Bandlücke, die gemäß der Varshni-Formel abgeschätzt werden kann:
-\begin{equation}
-  E_g(T) = E_g(0\text{ K})-\alpha\cdot\frac{T^2}{T+\beta}
-   \label{eq:varshni}
-\end{equation}
-
-\noindent Eine mit dem Mengenverhältnis x gewichtete Mittelung der Bandlückenenergien von Indium und Gallium bei $T=80\text{ K}$, berechnet nach den
-materialspezifischen Gleichungen ((\ref{eq:varshni}) mit $\alpha$, $\beta$ aus \cite{vorbereitung}), liefert zusammen mit (\ref{eq:evEgap300K})
-die erwartete Energieverschiebung von InGaP zwischen $T=80\text{ K}$ und $T=300\text{ K}$:
-\begin{eqnarray}
-  \Delta E_g = 0,05948\text{ eV}
-  \\
-  \nonumber
-  \Delta\lambda = 20.0\text{ nm}\;\;\;\;\,\,
-\label{eq:evVersch}
-\end{eqnarray}
-
-%%%%
-
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=0.48\textwidth]{../Messung/allfitsplot.eps}
-  \caption{\label{fig:spek} (1,2-fach) gauß-gefittete Lumineszenzspektren von InGaP zwischen $80\text{ K}$ und $250\text{ K}$ (vlnr)}
-\end{figure}
-
-\noindent Die bei verschiedenen Temperaturen aufgenommenen Spektren wurden einem Gauß- bzw. Doppelgaußfit
-unterzogen (Matlab) und sind in Abbildung \ref{fig:spek} dargestellt. Deutlich zu erkennen ist die Abnahme der
-Lumineszenzintensität und die Peakverbreiterung bei steigenden Temperaturen. Oberhalb von ca. $165\text{ K}$
-ist ein Verschmieren der linken Peakhälften hin zu kürzeren Wellenlängen zu erkennen.
-
-Die Abnahme der Lumineszenzintensität bei steigenden Temperaturen lässt sich mit der Fermi-Dirac-Verteilung
-verstehen: bei steigenden Temperaturen werden zunehmend auch Zustände oberhalb der Fermi-Energie, also Zustände
-im Leitungsband bzw. Donatorzustände besetzt, die aufgrund ausreichend thermischer Energie nicht ins Valenzband
-rekombinieren und somit für eine Verminderung der Anzahl der abgestrahlten Photonen pro Zeit (und Fläche) sorgen.
-
-\begin{figure}[t]
-  \centering
-  \includegraphics[width=0.48\textwidth]{../Messung/energtemp.eps}
-  \caption{\label{fig:EgapT} Temperaturabhängigkeit der Bandlückenenergie}
-\end{figure}
-
-\begin{figure}[b]
-  \centering
-  \includegraphics[width=0.48\textwidth]{../Messung/peaktemp.eps}
-  \caption{\label{fig:lamT} Temperaturabhängigkeit der Lumineszenz-Wellenlänge von InGaP}
-\end{figure}
-
-\newline\vspace{1em}
-\noindent In den Abbildungen \ref{fig:EgapT} \& \ref{fig:lamT} sind die Temperatur-
-abhängigkeiten der Bandlückenenergie und der entsprechenden Wellenlänge dargestellt. Bei steigenden Temperaturen wurde eine deutliche
-Rotverschiebung des Intensitätsmaximums gemessen (Verkleinerung der Bandlücke). Die Rotverschiebung konnte auch durch
-direkte Beobachtung festgestellt werden. Grund hierfür ist neben der thermischen Ausdehnung des Kristallgitters (Verringerung
-der Bindungsenergie der Gitterelektronen/-löcher) die Veränderung des effektiven Kristallpotentials durch bei höheren Temperaturen
-zunehmende Elektron-Phonon-Streuung. \cite{kittel}
-
-Die integrierten Intensitäten der Spektrallinien sind in Abb. \ref{fig:intInt} dargestellt.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Schlussfolgerung}
-
-Schlussoflgerung, sollten wir mal was von nem Buch oder so entnehmen nutzen wir:
-
-
-\begin{quote}
-  Ein Zitat mit Referenz auf das Buch \cite{melissinos1966}
-\end{quote}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
-a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
-tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
-consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
-ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
-quis nisi.
 
 Hier mal noch Beispiele wie man Gleichungen richtig referenziert, siehe
 Gleichung.~\ref{eq:first-equation} :
@@ -247,7 +137,20 @@ Natürlich gibts auch die guten alten subequations wie (\ref{subeq:1}) und
 \end{eqnarray}
 \end{subequations}
 
-Tabelle \ref{tab:table1}:
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Daten und Analyse}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
+a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
+tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
+consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
+ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
+quis nisi. Tabelle \ref{tab:table1}:
+
+
 \begin{table}[h]
 \caption{\label{tab:table1}Eine Tabelle mit Fußnoten}
 \begin{ruledtabular}
@@ -264,14 +167,34 @@ Tl& 0.480 & 18.90 & 3.550 & & & & \\
 \end{table}
 
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Schlussfolgerung}
+
+Schlussoflgerung, sollten wir mal was von nem Buch oder so entnehmen nutzen wir:
+
+
+\begin{quote}
+  Ein Zitat mit Referenz auf das Buch\cite{melissinos1966}
+\end{quote}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id facilisis ligula,
+a ultrices nibh. Nullam suscipit tellus nec mauris fermentum, ornare luctus neque
+tincidunt. Aenean commodo tincidunt varius. Phasellus faucibus metus non erat
+consectetur bibendum. Duis et luctus risus, at egestas justo. Nunc eleifend lacus
+ac laoreet scelerisque. Aenean cursus dignissim magna in ultrices. In eget nisl
+quis nisi.
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bibliography{sample-paper}
 \bibliographystyle{prsty}
 \begin{thebibliography}{99}
 \bibitem{saarland}Prof. Dr. Thomas Wichert, Photolumineszenz-Spektroskopie an Halbleitern, Universität des Saarlandes [2006]
 \bibitem{anleitung}FET Group, Benutzerhandbuch Elektrolumineszenz-Spektroskopie, Humboldt-Universität zu Berlin
-\bibitem{vorbereitung}FET Group, Fragen zur Vorbereitung, S.1-3, Humboldt-Universität zu Berlin
-\bibitem{kittel}Ch. Kittel, Einführung in die Festkörperphysik, S.159f., 12. Auflage, Oldenbourg Verlag [1999]
+\bibitem{abkuerzung3}Autor, Titel, Verlag,  [1945]
+\bibitem{abkuerzung4}Autor, Titel, Verlag,  [1945]
 \end{thebibliography}
 
 

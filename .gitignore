@@ -3,9 +3,3 @@ Protokoll/template.aux
 *.fls
 Protokoll/template.log
 Protokoll/template.synctex.gz
-berechnungen.nb
-*.gz
-Protokoll/template.log
-*.fls
-Protokoll/template.aux
-*.fdb_latexmk
