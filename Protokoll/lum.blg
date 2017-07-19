@@ -1,0 +1,17 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: lum.aux
+I couldn't open database file sample-paper.bib
+---line 36 of file lum.aux
+ : \bibdata{lumNotes,sample-paper
+ :                               }
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 41 of file lum.aux
+ : \bibdata
+ :         {lumNotes}
+I'm skipping whatever remains of this command
+I couldn't open style file prsty.bst
+---line 50 of file lum.aux
+ : \bibstyle{prsty
+ :                }
+I'm skipping whatever remains of this command
+I found no style file---while reading file lum.aux
+(There were 4 error messages)
