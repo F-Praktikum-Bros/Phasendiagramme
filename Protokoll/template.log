@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.2)  11 JUL 2017 22:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.2)  19 JUL 2017 13:23
 entering extended mode
 **./template.tex
 (template.tex
@@ -673,113 +673,259 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--47
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 48--54
+Underfull \hbox (badness 1122) in paragraph at lines 48--55
 \OT1/cmr/m/n/10 de-ne Elektron-Loch-Paare). Bei gu-ter K[]uhlung (we-
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 48--54
+Underfull \hbox (badness 3148) in paragraph at lines 48--55
 \OT1/cmr/m/n/10 Exzitonen-Rekombination, []Uberg[]ange vom Donator-
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 48--55
+\OT1/cmr/m/n/10 ni-sche Bin-dungs-ener-gie mit den ef-fek-ti-ven Elektron-
  []
 
 <img/rekombinationswege.jpg, id=1, 1089.06876pt x 474.77374pt>
 File: img/rekombinationswege.jpg Graphic file (type jpg)
 
 <use img/rekombinationswege.jpg>
-Package pdftex.def Info: img/rekombinationswege.jpg used on input line 57.
+Package pdftex.def Info: img/rekombinationswege.jpg used on input line 67.
 (pdftex.def)             Requested size: 239.70062pt x 104.494pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []\OT1/cmr/m/n/9 Abbildung 1. Lumineszenz-relevante elek-tro-ni-sche
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 59--59
+Underfull \hbox (badness 3179) in paragraph at lines 69--69
 []\OT1/cmr/m/n/9 Uberg[]ange: a) An-re-gung, b) Re-la-xa-ti-on im Band, c)
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <img/versuchsanleitung.jpg, id=2, 938.50626pt x 410.53375pt>
 File: img/versuchsanleitung.jpg Graphic file (type jpg)
 
 <use img/versuchsanleitung.jpg>
-Package pdftex.def Info: img/versuchsanleitung.jpg used on input line 75.
+Package pdftex.def Info: img/versuchsanleitung.jpg used on input line 85.
 (pdftex.def)             Requested size: 244.79782pt x 107.08078pt.
 
-Underfull \hbox (badness 1242) in paragraph at lines 80--87
+Underfull \hbox (badness 1242) in paragraph at lines 90--97
 \OT1/cmr/m/n/10 Zwecks Ma-xi-mie-rung des Signal-Rausch-Verh[]altnisses
  []
 
 
-Underfull \hbox (badness 1983) in paragraph at lines 80--87
+Underfull \hbox (badness 1983) in paragraph at lines 90--97
 \OT1/cmr/m/n/10 Com-pu-ter, der die Mess-si-gna-le zu-sam-men mit der
  []
 
+[1{C:/Users/MP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/rekomb
+inationswege.jpg> <./img/versuchsanleitung.jpg>]
+Underfull \hbox (badness 6708) in paragraph at lines 103--108
+\OT1/cmr/m/n/10 Um ei-ne bes-se-re Ein-ord-nung der Er-geb-nis-se zu
+ []
 
-Underfull \hbox (badness 1112) in paragraph at lines 101--107
+Package epstopdf Info: Source file: <../Messung/allfitsplot.eps>
+(epstopdf)                    date: 2017-07-17 14:11:48
+(epstopdf)                    size: 174929 bytes
+(epstopdf)             Output file: <../Messung/allfitsplot-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-07-17 14:24:22
+(epstopdf)                    size: 66540 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Messung/allfitsplot-eps-
+converted-to.pdf ../Messung/allfitsplot.eps>
+(epstopdf)             \includegraphics on input line 144.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Messung/allfitsplot-eps-converted-to.pdf, id=24, 577.15625pt x 326.21875pt>
+File: ../Messung/allfitsplot-eps-converted-to.pdf Graphic file (type pdf)
+<use ../Messung/allfitsplot-eps-converted-to.pdf>
+Package pdftex.def Info: ../Messung/allfitsplot-eps-converted-to.pdf used on in
+put line 144.
+(pdftex.def)             Requested size: 244.79782pt x 138.36487pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 153--157
+[]\OT1/cmr/m/n/10 Die Ab-nah-me der Lu-mi-nes-zenzin-ten-sit[]at bei stei-
+ []
+
+Package epstopdf Info: Source file: <../Messung/energtemp.eps>
+(epstopdf)                    date: 2017-07-16 13:36:10
+(epstopdf)                    size: 69214 bytes
+(epstopdf)             Output file: <../Messung/energtemp-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2017-07-16 13:37:32
+(epstopdf)                    size: 27439 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Messung/energtemp-eps-co
+nverted-to.pdf ../Messung/energtemp.eps>
+(epstopdf)             \includegraphics on input line 160.
+Package epstopdf Info: Output file is already uptodate.
+<../Messung/energtemp-eps-converted-to.pdf, id=25, 578.16pt x 344.28625pt>
+File: ../Messung/energtemp-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ../Messung/energtemp-eps-converted-to.pdf>
+Package pdftex.def Info: ../Messung/energtemp-eps-converted-to.pdf used on inpu
+t line 160.
+(pdftex.def)             Requested size: 244.79782pt x 145.77074pt.
+Package epstopdf Info: Source file: <../Messung/peaktemp.eps>
+(epstopdf)                    date: 2017-07-16 13:36:10
+(epstopdf)                    size: 49995 bytes
+(epstopdf)             Output file: <../Messung/peaktemp-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-16 13:37:33
+(epstopdf)                    size: 19686 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Messung/peaktemp-eps-con
+verted-to.pdf ../Messung/peaktemp.eps>
+(epstopdf)             \includegraphics on input line 166.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Messung/peaktemp-eps-converted-to.pdf, id=26, 578.16pt x 353.32pt>
+File: ../Messung/peaktemp-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ../Messung/peaktemp-eps-converted-to.pdf>
+Package pdftex.def Info: ../Messung/peaktemp-eps-converted-to.pdf used on input
+ line 166.
+(pdftex.def)             Requested size: 244.79782pt x 149.59563pt.
+
+Underfull \hbox (badness 2197) in paragraph at lines 167--167
+[]\OT1/cmr/m/n/9 Abbildung 5. []Tem-pe-ra-tu-rabh[]angigkeit der Lumineszenz-
+ []
+
+
+template.tex:170: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 171--177
+\OT1/cmr/m/n/10 In den Ab-bil-dun-gen 4[] & 5[] sind die Temperatur-
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 171--177
+\OT1/cmr/m/n/10 abh[]angigkeiten der Bandl[]uckenenergie und der ent-
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 171--177
+\OT1/cmr/m/n/10 spre-chen-den Wel-lenl[]ange dar-ge-stellt. Bei stei-gen-den
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 171--177
+\OT1/cmr/m/n/10 Tem-pe-ra-tu-ren wur-de ei-ne deut-li-che Rot-ver-schie-bung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--177
+\OT1/cmr/m/n/10 des In-ten-sit[]atsmaximums ge-mes-sen (Ver-klei-ne-rung
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 171--177
+\OT1/cmr/m/n/10 der Bandl[]ucke). Die Rot-ver-schie-bung konn-te auch
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 171--177
+\OT1/cmr/m/n/10 hierf[]ur ist ne-ben der ther-mi-schen Aus-deh-nung des
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 171--177
+\OT1/cmr/m/n/10 Kris-tall-po-ten-ti-als durch bei h[]oheren Tem-pe-ra-tu-ren
+ []
+
+
+LaTeX Warning: Reference `fig:intInt' on page 2 undefined on input line 178.
+
+[2 <../Messung/allfitsplot-eps-converted-to.pdf> <../Messung/energtemp-eps-conv
+erted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 187.
+
+
+Package natbib Warning: Citation `melissinos1966' on page 3 undefined on input 
+line 188.
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 211--217
 []\OT1/cmr/m/n/10 Oder auch in der Zei-le: $[] = \OMS/cmsy/m/n/10 j\OML/cmm/m/i
 t/10  []\OMS/cmsy/m/n/10 i  \OML/cmm/m/it/10 c[]\OMS/cmsy/m/n/10 j\OT1/cmr/m/n
 /10 0\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 +
  []
 
-[1{C:/Users/MP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/rekomb
-inationswege.jpg> <./img/versuchsanleitung.jpg>]
 
-Package natbib Warning: Citation `bevington2003' on page 2 undefined on input l
-ine 166.
+Package natbib Warning: Citation `bevington2003' on page 3 undefined on input l
+ine 263.
 
 
-Package natbib Warning: Citation `melissinos1966' on page 2 undefined on input 
-line 179.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 No file template.bbl.
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
  []\OT1/cmr/m/n/9 Prof. Dr. Tho-mas Wi-chert, Photolumineszenz-
  []
 
 
-Underfull \hbox (badness 6961) in paragraph at lines 195--196
+Underfull \hbox (badness 6961) in paragraph at lines 272--273
  []\OT1/cmr/m/n/9 FET Group, Be-nut-zer-hand-buch Elektrolumineszenz-
  []
 
 No file template.bbl.
-[2]
+[3 <../Messung/peaktemp-eps-converted-to.pdf>]
 
 Package natbib Warning: There were undefined citations.
 
-[3] (template.aux) ) 
+[4] (template.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5300 strings out of 493333
- 67732 string characters out of 3139204
- 169825 words of memory out of 3000000
- 8716 multiletter control sequences out of 15000+200000
+ 5329 strings out of 493333
+ 68457 string characters out of 3139204
+ 165937 words of memory out of 3000000
+ 8740 multiletter control sequences out of 15000+200000
  16629 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,11n,28p,388b,326s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on template.pdf (3 pages, 348169 bytes).
+ 40i,12n,28p,388b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/symbols/msbm10.pfb>
+Output written on template.pdf (4 pages, 473994 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
+ 166 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
