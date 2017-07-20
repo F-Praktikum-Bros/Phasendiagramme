@@ -104,9 +104,9 @@ abspeichert und zu einem Energiespektrum verarbeitet.
 
 \noindent Um eine bessere Einordnung der Ergebnisse zu ermöglichen, wird zunächst mithilfe einer empirischen
 Formel die temperaturabhängige Lage des Lumineszenzpeaks (entspricht Größe der Bandlücke) geschätzt.
-Hierzu berechnen wir zunächst in welcher Zusammensetzung $\text{In}_x\text{Ga}_{1-x}\text{P}$
+Hierzu berechnen wir zunächst in welcher Zusammensetzung $\text{Ga}_x\text{In}_{1-x}\text{P}$
 an GaAs gitterangepasst ist durch: $a_{GaAs} = x\cdot a_{GaP}+(1-x)\cdot a_{InP}$. Wir finden
-$x=0.515$ und mit der empirischen Formel (bei $\text{T}=300\text{ K}$) \cite{vorbereitung}:
+$x=0,515$ und mit der empirischen Formel (bei $\text{T}=300\text{ K}$) \cite{vorbereitung}:
 \begin{equation}
   E_{g}(x) = 1,351+0,643x+0,786x^2\text{ (eV) }
    \label{eq:Ex}
@@ -135,9 +135,10 @@ und $T=300\text{ K}$ von:
 Deutlich zu erkennen ist die Abnahme der Lumineszenzintensität und die Peakverbreiterung bei steigenden Temperaturen.
 Oberhalb von ca. $165\text{ K}$ ist ein Verschmieren der linken Peakhälften hin zu kürzeren Wellenlängen zu erkennen.
 Deshalb und da bereits ab $T>100$ K ein asymmetrischer Verlauf der Kurven zu erkennen ist, wurden alle Lumineszenzpeaks
-einem Doppelgaußfit unterzogen (Mathematica). Exzitonische Übergänge konnten nicht beobachtet werden. Dies lässt sich leicht
-einsehen, wenn man die mittlere kinetische Energie eines Teilchens mit $k_B T=7\text{ meV}$ bei $T=80$ K nähert und
-mit der exzitonischen Bindungsenergie (\ref{exitEbind}) vergleicht. Offensichtlich ist die Temperatur
+einem Doppelgaußfit unterzogen (Mathematica).
+Exzitonische Übergänge konnten nicht beobachtet werden. Dies lässt sich leicht
+einsehen, wenn man die mittlere kinetische Energie eines Teilchens mit $k_B T\approx 7\text{ meV}$ bei $T=80$ K nähert und
+mit der exzitonischen Bindungsenergie (\ref{eq:exitEbind}) vergleicht. Offensichtlich ist die Temperatur
 von 80 K zu hoch, um exzitonische Übergänge zu beobachten, da gerade genügend thermische Energie zur Verfügung steht
 um die exzitonische Bindungsenergie zu überwinden.
 
@@ -165,33 +166,33 @@ zu einer Verkleinerung der Bandlücke, die gemäß der Varshni-Formel abgeschät
 \noindent In den Abbildungen \ref{fig:EgapT} \& \ref{fig:lamT} sind die Temperatur-
 abhängigkeiten der Bandlückenenergie und der entsprechenden Wellenlänge dargestellt. Bei steigenden Temperaturen wurde eine deutliche
 Rotverschiebung des Intensitätsmaximums gemessen (Verkleinerung der Bandlücke). Die Rotverschiebung konnte auch durch
-direkte Beobachtung festgestellt werden.
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=0.48\textwidth]{../Messung/energtemp.eps}
-  \caption{\label{fig:EgapT} Bandlückenenergie in Abhängigkeit der Temperatur, Fitparameter
-  aus Varshniformel: $E_g^0= 2.03 \text{ eV}$, $ \alpha = 4.3*10^{-4} \text{ eV/K}$, \quad $ \beta = 140.2 \text{ K}$}
-\end{figure}
-
-\noindent Grund hierfür ist neben der thermischen Ausdehnung des Kristallgitters (Verringerung
+direkte Beobachtung festgestellt werden. Grund hierfür ist neben der thermischen Ausdehnung des Kristallgitters (Verringerung
 der Bindungsenergie der Gitterelektronen/-löcher) die Veränderung des effektiven Kristallpotentials durch bei höheren Temperaturen
-zunehmende Elektron-Phonon-Streuung \cite{kittel}. Führt man eine Extrapolation der experimentellen Daten (Bandlücke/Wellenlänge zwischen 80
-und 255 K) durch und betrachtet die erwarteten Verschiebungen im Bereich zwischen 80 K und 300 K, lassen sich die Ergebnisse mit (\ref{eq:evVersch})
+zunehmende Elektron-Phonon-Streuung \cite{kittel}.
+
+Führt man eine Extrapolation der experimentellen Daten (Bandlücke/Wellenlänge zwischen 80 K und 255 K) durch und
+betrachtet die erwarteten Verschiebungen im Bereich zwischen 80 K und 300 K, lassen sich die Ergebnisse mit (\ref{eq:evVersch})
 vergleichen:
 \begin{equation}
   \Delta E_{g,exp}\approx 74\text{ meV} \Rightarrow \Delta\lambda_{exp}\approx 23.5\text{ nm}
    \label{eq:expVersch}
 \end{equation}
 
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.48\textwidth]{../Messung/energtemp.eps}
+  \caption{\label{fig:EgapT} Bandlückenenergie in Abhängigkeit der Temperatur, Fitparameter
+  aus Varshniformel: $E_g^0= 2.03 \text{ eV}$, $ \alpha = 4.3*10^{-4} \text{ eV/K}$, \quad $ \beta = 140.2 \text{ K}$}
+\end{figure}
+
 \noindent Die Größenordnung und Richtung der Wellenlängenverschiebung deckt sich mit der Erwartung aus (\ref{eq:evVersch}).
 Die gemessene Änderung der Bandlücke - wie auch die Wellenlängenänderung - ist jedoch etwas größer ausgefallen als die Theorie vorhersagt.
 Diese Diskrepanz könnte sowohl von Verunreinigungen des Kristalls als auch von einer abweichenden Materialzusammensetzung als oben angenommen
-herrühren. Die konkrete Abweichung der exp. Bandlücke von der theoretischen gibt Aufschluss über die Mengenverhältnisse von Ga und In in der Diode.
-Die Materialzusammensetzung war vermutlich nicht genau an GaAs gitterangepasst, da die erhaltene
-Bandlücke experimentell größer ausgefallen ist als theoretisch vorhergesagt (s. Abb. \ref{EgapT}). Neben Verunreinigungen des Materials könnte
-die Ursache hierfür ein höherer Gehalt an Ga (GaP) sein (d.h $x>0.51$), da dies gemäß \ref{eq:Ex} zu einer größeren Bandlücke führt.
-Extrapoliert man die experimentell ermittelte Bandlücke für $T=300\text{ K}$ mithilfe der Varshni-Formel, lässt sich mit Gl. \ref{eq:Ex}
+herrühren. Die konkrete Abweichung der experimentell ermittelten Bandlücke von der Theoretischen gibt Aufschluss über die Mengenverhältnisse von
+Ga und In in der Diode. Die Materialzusammensetzung war vermutlich nicht genau gitterangepasst an GaAs, da die erhaltene
+Bandlücke experimentell größer ausgefallen ist als theoretisch vorhergesagt (s. Abb. \ref{fig:EgapT}). Neben Verunreinigungen des Materials könnte
+die Ursache hierfür gemäß \ref{eq:Ex} ein höherer Gehalt an Ga (GaP) sein (d.h. $x>0.51$).
+Extrapoliert man die experimentell ermittelte Bandlücke für $T=300\text{ K}$ mithilfe der Varshni-Formel, lässt sich mit Gl. (\ref{eq:Ex})
 ein korrigierter Wert für die Zusammensetzung errechnen. Wir erhalten $x_{korr}\approx 0.55$.
 
 \begin{figure}[h]
@@ -227,14 +228,14 @@ Peakintensitäten in Abhängigkeit von der Temperatur fitten und somit Rückschl
     I(T) = \frac{I_0}{1+c\cdot\text{exp}\left( -\frac{E_A}{k_B T} \right)}
   \end{equation}
 
-\noindent Diese trifft eine Aussage über die notwendige Energie eines Elektrons,
-um über Phononen oder andere nicht-strahlende Prozesse zu relaxieren. In Abb. \ref{fig:intInt}
-ist dieser Fit dargestellt. Wir erhalten eine Aktivierungsenergie von $E_A=33 \text{ meV}$. Diese liegt im erwarteten
-Referenzbereich von $E_A=10-50\text{ meV}$ (für In$_{0,48}$Ga$_{0.52}$P) \cite{eact}.
+\noindent Diese beschreibt die notwendige Energie eines Ladungsträgers im Donator-/Akzeptorniveau, um ins nächstgelegene Band
+(Leitungs-/Valenzband) angeregt zu werden, um dann strahlend, über Phononen oder andere nicht-strahlende Prozesse zu relaxieren.
+In Abb. \ref{fig:intInt} ist dieser Fit dargestellt. Wir erhalten eine Aktivierungsenergie von $E_A=33 \text{ meV}$, welche im erwarteten
+Referenzbereich von $E_A=10-50\text{ meV}$ (für Ga$_{0.52}$In$_{0,48}$P) \cite{eact} liegt.
 
 In Abb. \ref{fig:maxInt} sind die maximalen Intensitäten über die Temperatur aufgetragen. Deutlich ist wieder
 der (stärker als lineare) Abfall der Lumineszenz-Intensität bei steigenden Temperaturen. Wie bereits in Abschnitt III.2 erläutert,
-sind vor allem Elektron-Phonon-Wechselwirkung für dieses Verhalten verantwortlich.
+sind vor allem Elektron-Phonon-Wechselwirkungen für dieses Verhalten verantwortlich.
 
 \begin{figure}[t]
   \centering
@@ -245,12 +246,13 @@ sind vor allem Elektron-Phonon-Wechselwirkung für dieses Verhalten verantwortli
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Schlussfolgerung}
 
-Es wurde das Lumineszenzspektrum einer InGaP/GaAs-Photodiode untersucht. Die charakteristische Temperaturabhängigkeit der
+\noindent Es wurde das Lumineszenzspektrum einer InGaP/GaAs-Photodiode untersucht. Die charakteristische Temperaturabhängigkeit der
 Bandlücke, sowie der Peakintensitäten und integrierten Peakintensitäten konnte bestätigt werden. Mittels Vergleich des theoretischen
-und experimentellen Temperaturverhaltens der Bandlücke wurde eine Aussage über die Zusammensetzung des Ga$_x$In$_(1-x)$P getroffen
-($x\approx 0.55$ wahrscheinlich). Die auf die Lumineszenz bezogene ermittelte Aktivierungsenergie von InGaP liegt im erwarteten Bereich.
-Eine Fehlerquelle, die zu einer systematischen Abweichung der Bandlücke nach oben führen würde, ist die Reinheit des Kristalls. Bereits
-geringste Verunreinigungen des Materials nehmen großen Einfluss auf die Phononen-Wechselwirkung, die v.a. an ebensolchen Defekten streuuen.
+und experimentellen Temperaturverhaltens der Bandlücke wurde eine Aussage über die Zusammensetzung des Ga$_x$In$_{1-x}$P getroffen
+($x>0.51$). Die auf die Lumineszenz bezogene ermittelte Aktivierungsenergie von InGaP liegt im erwarteten Bereich.
+Unreinheiten in der Kristallstruktur wurden während der gesamten Betrachtung quantitativ vernachlässigt. Diese würden zur Bildung
+von Zwischenniveaus in der Bandlücke führen. Die Absorptionskante würde dadurch, je nach Dotierung, nach oben oder unten verschoben werden, was
+zu einer systematischen Abweichung der Bandlücke führen würde.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bibliography{sample-paper}
