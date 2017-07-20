@@ -9,3 +9,7 @@ Protokoll/template.log
 *.fls
 Protokoll/template.aux
 *.fdb_latexmk
+*.aux
+Protokoll/lum.log
+*.nb
+berechnungen.nb
