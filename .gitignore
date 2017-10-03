@@ -1,0 +1,6 @@
+*.aux
+Protokoll/phasendiagramme.fdb_latexmk
+Protokoll/phasendiagramme.synctex.gz
+*.bib
+Protokoll/phasendiagramme.log
+*.fls
