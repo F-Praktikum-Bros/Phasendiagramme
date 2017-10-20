@@ -10,13 +10,14 @@ nofootinbib,superscriptaddress]{revtex4-1}
 \usepackage[ngerman]{babel} % deutsche Siblentrennung
 \usepackage[utf8]{inputenc} % Umlaute
 \usepackage{chemformula}    % für chemische Schreibweise
+\usepackage{lipsum}
 
 \def\andname{\hspace*{-0.5em},} % definiert die Trennung zwischen 2 Autoren neu
 
 % Titelseite
 \begin{document}
-\title{F-Praktikum (Phasendiagramme):\\Differentialthermoanalyse von $\text{Tb}_{0.5}\text{Gd}_{0.5}\text{ScO}_3$
-und $\text{Dy}_{0.5}\text{Tb}_{0.5}\text{ScO}_3$\\im Bereich zwischen 300 K und 2500 K}
+\title{F-Praktikum (Phasendiagramme):\\Differentialthermoanalyse von $\text{TbGdScO}_3$
+und $\text{DyTbScO}_3$\\im Bereich zwischen 300 K und 2500 K}
 \author         {Ch. Egerland}
 \email[Email: ]{egerlanc@physik.hu-berlin.de}
 \author         {M. Pfeifer}
@@ -25,6 +26,7 @@ und $\text{Dy}_{0.5}\text{Tb}_{0.5}\text{ScO}_3$\\im Bereich zwischen 300 K und 
 \date[Versuchsort: ]{Leibniz-Institut für Kristallzüchtung \\ VVVersuchsdatum: 05.09.2017}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{abstract}
 Mischkristalle aus Skandat ($\text{ScO}_3$) und einem seltenen Erdelement (RE), auch $\text{REScO}_3$ bzw. RE-Skandate, finden heutzutage häufig Anwendung bei der Herstellung
 dünner Perowskit-Filme. Dies ist der Tatsache geschuldet, dass $\text{REScO}_3$ Gitterparameter im Bereich von 3.95 \AA$\text{ bis}$ 4.02 \AA$\text{ aufweisen.}$
@@ -59,7 +61,7 @@ Film-Eigenschaften (z.B. Anpassung Gitterparameter in der Größenordnung von 0.
 die Verbindungen $\text{Tb}_{0.5}\text{Gd}_{0.5}\text{ScO}_3$ und $\text{Dy}_{0.5}\text{Tb}_{0.5}\text{ScO}_3$ mittels Differentialthermoanalyse untersucht.
 
 \subsection{Differentialthermoanalyse (DTA)}
-\begin{figure}[h]
+\begin{figure}[b]
   \centering
   \includegraphics[width=0.48\textwidth]{../img/exp.jpg}
   \caption{\label{fig:exp} Prinzip der Differentialthermoanalyse. \textbf{R} - Referenz, \textbf{P} - Probe, \textbf{O} - Ofen. Aus \cite{versuchsbeschr}}
@@ -67,7 +69,7 @@ die Verbindungen $\text{Tb}_{0.5}\text{Gd}_{0.5}\text{ScO}_3$ und $\text{Dy}_{0.
 
 \noindent Die DTA ist ein thermisches Untersuchungsverfahren zur Materialanalyse. Dabei befindet sich innerhalb eines evakuierten Ofens ein hochtemperaturbeständiger Tiegelhalter
 mit zwei symmetrischen Schmelztiegeln: ein Probentiegel und ein leerer (oder mit einer inerten Substanz gefüllten) Referenztiegel. An jedem Probentiegel ist,
-wie in Abb. X zu erkennen, jeweils ein Thermoelement befestigt. Wird der Ofen geheizt, entsteht aufgrund des Seebeck-Effektes eine zur Temperatur proportionale Spannung zwischen den Drahtenden.
+wie in Abb. \ref{fig:dtaDyTb+TbGd} zu erkennen, jeweils ein Thermoelement befestigt. Wird der Ofen geheizt, entsteht aufgrund des Seebeck-Effektes eine zur Temperatur proportionale Spannung zwischen den Drahtenden.
 
 Findet im Probentiegel nun ein Phasenübergang statt, der Umwandlungswärme benötigt (1. Art), so steigt die Temperatur dort langsamer an als am Referenztiegel. Durch Reihenschaltung beider
 Thermoelemente kann diese Differenzspannung/-temperatur (Größenordnung 20 $\text{µV}$) direkt gemessen werden. Nimmt man zusätzlich die absolute Temperatur am Referenztiegel auf, können materialspezifische Eigenschaften
@@ -79,6 +81,13 @@ der Probensubstanz, wie Schmeltemperatur und -wärme (Peakfläche) bestimmt werd
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.48\textwidth]{../img/Messkurven_unsere.png}
+  \caption{\label{fig:dtaDyTb+TbGd} DTA von $\text{Al}_{2}\text{O}_3$ (grün), $\text{Dy}_{0.5}\text{Tb}_{0.5}\text{ScO}_3$ (rot)
+  und $\text{Tb}_{0.5}\text{Gd}_{0.5}\text{ScO}_3$ (blau)}
+\end{figure}
+
 \section{Experiment}
 \noindent Die Messung wird im Institut für Kristallzüchtung mit der DTA-Messaparatur \texttt{STA 429} von der Firma \texttt{NETZSCH} durchgeführt. Die Steuerungssoftware
 \texttt{Measurement Program STA 409 CD (Netzsch)} übernimmt neben dem Evakuieren des Ofens das zeitlineare Heizen (Heizrate 15 K/min) und die Aufnahme der zeitabhängigen Differenzthermospannung.
@@ -86,7 +95,7 @@ Damit keine Oxidation der Proben stattfindet, finden alle Messungen unter He-Atm
 Temperaturbeständigkeit aus reinem Wolfram. Das Thermoelement setzt sich aus Wolfram und Rhenium (Schmelzpunkte 3.422 °C und 3.186 °C) zusammen.
 Untersucht werden 62,85 mg $\text{Dy}_{0.5}\text{Tb}_{0.5}\text{ScO}_3$ und 72,75 mg $\text{Tb}_{0.5}\text{Gd}_{0.5}\text{ScO}_3$, wobei die Differenzspannung jeweils
 einmal im Temperaturbereich zwischen 24 °C und 2050 °C und ein weiteres mal im Bereich zwischen 500 °C und 2050 °C gemessen wird. Eine weitere DTA
-mit $\text{Al}_2\text{O}_3$, dessen Schmelzpunkt bekannt ist, gewährleistet die Kalibrierung der gemessenen Temperatur.
+mit $\text{Al}_2\text{O}_3$, dessen Schmelzpunkt und -wärme bekannt ist ($T_S=2054\text{ °C}$, $Q_S=118.4\text{ kJ/mol}$), gewährleistet die Kalibrierung der gemessenen Temperatur.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -96,33 +105,25 @@ mit $\text{Al}_2\text{O}_3$, dessen Schmelzpunkt bekannt ist, gewährleistet die
 \section{Daten und Analyse}
 \noindent Mithilfe der Analysesoftware \texttt{Proteus Thermal Analysis} lässt sich die auf die jeweilige Probenmasse normierte, temperaturabhängige Differenzspannung in
 Abhängigkeit von der Temperatur darstellen. Außerdem wird die Schmelzwärme (Peakfläche) und der Schmelzpunkt durch die Onset-Temperatur (Schnittpunkt Wendetangente mit Basislinie) \cite{versuchsbeschr}
-berechnet. Die temperaturabhängigen DTA-Messkurven für $\text{Dy}_{0.5}\text{Tb}_{0.5}\text{ScO}_3$, $\text{Tb}_{0.5}\text{Gd}_{0.5}\text{ScO}_3$ und $\text{Al}_{2}\text{O}_3$ sind in Abb. X dargestellt.
+berechnet. Die temperaturabhängigen DTA-Messkurven für $\text{Dy}_{0.5}\text{Tb}_{0.5}\text{ScO}_3$, $\text{Tb}_{0.5}\text{Gd}_{0.5}\text{ScO}_3$ und $\text{Al}_{2}\text{O}_3$ sind in Abb. \ref{fig:exp} dargestellt.
 
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=0.48\textwidth]{../img/Messkurven_unsere.png}
-  \caption{\label{fig:dtaDyTb+TbGd} DTA von $\text{Al}_{2}\text{O}_3$ (grün), $\text{Dy}_{0.5}\text{Tb}_{0.5}\text{ScO}_3$ (rot)
-  und $\text{Tb}_{0.5}\text{Gd}_{0.5}\text{ScO}_3$ (blau)}
-\end{figure}
 
-\noindent Da pro Substanz nur zwei Messwerte für Schmelzpunkt und -wärme vorliegen, werden die Unsicherheiten mit $\Delta T_S=20\text{ K}$ und $\Delta Q_S=0.2*Q_S$ abgeschätzt.
 
-Für $\text{TbGdScO}_3$ ergeben sich folgende Werte:
+\noindent Da pro Substanz nur zwei Messwerte für Schmelzpunkt und -wärme vorliegen, werden die Unsicherheiten mit $\Delta T_S=20\text{ K}$ und $\Delta Q_S=0,2\cdot Q_S$ abgeschätzt.
+Die Peakflächen wurden aufgrund unterschiedlicher molarer Massen zunächst von µVs/mg in µVs/mol umgerechnet und dann zur bekannten Schmelzwärme von $\text{Al}_2\text{O}_3$ ins Verhältnis gesetzt.
+
+Es ergeben sich folgende Werte:
 \begin{eqnarray}
-  T_S = (2149\,\pm\, 20)\text{ °C}\;\:\, \nonumber \\
-  Q_S = (36\,\pm\, 7)\text{ kJ/mol} \nonumber
+  \text{TbGdScO}_3:\;\;\;\;\; T_S = (2149\,\pm\, 20)\text{ °C}\;\:\,\;\;\;\;\;\:\: \nonumber \\
+  Q_S = (142\,\pm\, 28)\text{ kJ/mol}            \;\;\;             \nonumber \\
+                                                        \;\;\;               \nonumber \\
+  \text{DyTbScO}_3:\;\;\;\;\; T_S = (2114\,\pm\, 20)\text{ °C}\;\:\,\;\;\;\;\;\:\: \nonumber \\
+  Q_S = (163\,\pm\, 33)\text{ kJ/mol}                     \;\;\;             \nonumber
   \label{eq:XXX}
 \end{eqnarray}
 
-\noindent Für $\text{DyTbScO}_3$ finden wir:
-\begin{eqnarray}
-  T_S = (2114\,\pm\, 20)\text{ °C}\;\:\, \nonumber \\
-  Q_S = (40\,\pm\, 8)\text{ kJ/mol} \nonumber
-  \label{eq:XXX}
-\end{eqnarray}
-
-\newline TEXTTEXTTE XTTEXTTEXTT EXTTEXTTEXTTEXTTEXTT EXTTEXTTEXTTEX TTEXT TEXTTE XTT EXTTEXTT EXTTEXT TEXTTEXT TEXTTEXTTEXT TEXTTEXTTEXTTEXTT XTTEXT
+TEXTTEXTTE XTTEXTTEXTT EXTTEXTTEXTTEXTTEXTT EXTTEXTTEXTTEX TTEXT TEXTTE XTT EXTTEXTT EXTTEXT TEXTTEXT TEXTTEXTTEXT TEXTTEXTTEXTTEXTT XTTEXT
 TEXTTEX TTEXTTEXTTEXTTEXTTEXTT EXTT EXTTEXTTEXTT EXT TEXTTEXTTEXTTEXTTE XTTEXTTEXTTEXTTEX TTEXTTEXTTEXTTEX TTEXTTEXTTEX TTEXTTEXTTEXTTEXT
 TEXTTEX TTEXTTEXT TE XTTEXT TEX TTEXTT EX TTEXTTEXTTEXTT EX TTEXTTEXTTEX TTEXTTEXTTE X TTEXTT EXTTEXTTEX TTEXTTEXTTEXTTEXT TEXTTEXTT EXTTEXTTEXT
 
