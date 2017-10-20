@@ -1,5 +1,5 @@
 # Praktikum_Phasendiagramme
-Das ist ein Git für das F-Praktikum im Physikstudium an der HU Berlin im Jahr 2017 von Christoph Egerland und Max Pfeifer.
+Das ist ein Git für das F-Praktikum im Physikstudium an der HU Berlin im Jahr 2017 von Max Pfeifer und Christoph Egerland.
 
 Versuch: Phasendiagramme
 
