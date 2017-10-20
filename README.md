@@ -3,7 +3,7 @@ Das ist ein Git für das F-Praktikum im Physikstudium an der HU Berlin im Jahr 2
 
 Versuch: Phasendiagramme
 
-Differentialthermoanalyse an DyTbScO3 und TbGdScO3 Mischkristallen (Perowskitstruktur)
+Differentialthermoanalyse von DyTbScO3 und TbGdScO3 Mischkristallen (Perowskitstruktur)
 Bestimmung der Schmelztemperaturen und -wärmen
 
 Differential thermal analysis of DyTbScO3 and TbGdScO3 solid-solution single crystals (perovskite)
