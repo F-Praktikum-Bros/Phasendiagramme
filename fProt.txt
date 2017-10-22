@@ -1,0 +1,16 @@
+- auswertung: ideal mischbar; vermutlich genau wie bei GdSmScO3 narrow 2-phase region (liq+solid)
+(weil u.a. beim aufw�rmen und abk�hlen �hnlihe schmelztemperaturen festgestellt wurden)
+- unbedingt Abb 3 DyTbScO3 Kurven tauschen (1. gg. 2. messung) + v.o.n.u: r b g black
+
+
+
+
+
+Q_err= +/- 20%
+T_err= +/-20�C
+Schmelzw�rme Al2O3: 118.4 kJ/mol
+Al2O3 melting point: 2054 �C
+TbScO3 melting point: 2095 �C
+GdScO3 melting point: 2423 K, Q=85 kJ/mol
+SmScO3 melting point: 2440 K, Q=105 kJ/mol
+NdScO3 melting point: 2491 K, Q=89,2 kJ/mol
